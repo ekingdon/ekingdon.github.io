@@ -4,6 +4,30 @@
 h1, h2 {font-family: "Mountains of Christmas", serif}
 body,h3,h4,h5 {font-family: serif}
 
+/* NAV BAR */
+
+#navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #b3cccc;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+/* end of 'nav bar' style */
 
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 /* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
