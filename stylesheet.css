@@ -21,7 +21,8 @@ li {
 
 li a {
   display: block;
-  color: #b3cccc;
+  color: #134d14;
+  border: 1px solid #134d14;
   text-align: center;
   padding: 20px 20px;
   text-decoration: none;
