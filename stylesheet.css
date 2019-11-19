@@ -8,7 +8,8 @@ h1,body,h2,h4,h5 {font-family: "Agency FB Bold", serif;}
 /* NAV BAR BORDER REFERENCE https://stackoverflow.com/questions/42707218/css-how-to-put-a-border-around-the-entire-nav-bar*/
 #navbar {
   list-style-type: none;
-  border: 1px solid #5F9239;
+  border-bottom: 3px solid #5F9239;
+  border-style: outset;
   margin: 0;
   padding: 0;
   overflow: hidden;
