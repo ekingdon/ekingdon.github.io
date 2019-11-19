@@ -27,7 +27,25 @@ li a {
   text-decoration: none;
 }
 
+/* trying to get the nav bar to be responsive from https://www.bitdegree.org/learn/responsive-media#how-to-write-a-at-media-rule*/
+@media screen and (max-width: 600px) {
+    #navbar {
+        float: none;
+        width: 100%;
+    }
+}
+
+li a:hover {
+    background-color: #ff4d4d;
+    color: #ffffff;
+}
+
 /* end of 'nav bar' style */
+
+.logo {float: left;
+  width: 300px;
+  padding: 10px;
+}
 
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 /* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
@@ -174,7 +192,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-hover-none:hover{box-shadow:none!important}
 
 /* COLOURS */
-.w3-light-grey,.w3-hover-light-grey:hover,.w3-light-gray,.w3-hover-light-gray:hover{color:#000!important;background-color:#f1f1f1!important}
+.w3-light-grey,.w3-hover-light-grey:hover,.w3-light-gray,.w3-hover-light-gray:hover{color:#000!important;background-color:#ffffff!important}
 .w3-white,.w3-hover-white:hover{color:#000!important;background-color:#fff!important}
 .w3-black,.w3-hover-black:hover{color:#fff!important;background-color:#000!important}
-.w3-dark-grey,.w3-hover-dark-grey:hover,.w3-dark-gray,.w3-hover-dark-gray:hover{color:#fff!important;background-color:#616161!important}
+.w3-dark-grey,.w3-hover-dark-grey:hover,.w3-dark-gray,.w3-hover-dark-gray:hover{color:#fff!important;background-color:#ff4d4d!important}
