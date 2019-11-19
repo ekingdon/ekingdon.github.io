@@ -1,8 +1,8 @@
 /* W3.CSS 4.13 June 2019 by Jan Egil and Borge Refsnes */
 
 /* FONT */
-h1, h3 {font-family: "Mountains of Christmas", serif}
-body,h2,h4,h5 {font-family: "Agency FB Bold" }
+h3 {font-family: "Mountains of Christmas", serif;}
+h1,body,h2,h4,h5 {font-family: "Agency FB Bold", serif;}
 
 /* NAV BAR */
 
