@@ -8,6 +8,7 @@ h1,body,h2,h4,h5 {font-family: "Agency FB Bold", serif;}
 
 #navbar {
   list-style-type: none;
+  border: 1px solid #134d14;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -22,7 +23,7 @@ li {
 li a {
   display: block;
   color: #134d14;
-  border: 1px solid #134d14;
+  
   text-align: center;
   padding: 20px 20px;
   text-decoration: none;
