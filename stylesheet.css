@@ -2,7 +2,9 @@
 
 /* FONT */
 h3 {font-family: "Mountains of Christmas", serif;}
-h1,body,h2,h4,h5 {font-family: "Agency FB Bold", serif;}
+h1,body,h2,h4,h5 {font-family: serif;}
+
+h1 {padding-right: 20;}
 
 /* NAV BAR */
 /* NAV BAR BORDER REFERENCE https://stackoverflow.com/questions/42707218/css-how-to-put-a-border-around-the-entire-nav-bar*/
