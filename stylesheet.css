@@ -14,7 +14,7 @@ h1,body,h2,h4,h5 {font-family: serif;}
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #ffffff;
+  background-color: #ff1f00;
   cursor: pointer;
 }
 
@@ -40,8 +40,8 @@ li a {
 }
 
 li a:hover {
-    background-color: #ff4d4d;
-    color: #ffffff;
+    background-color: #5f9239;
+    color: #ff1f00;
 }
 
 /* end of 'nav bar' style */
