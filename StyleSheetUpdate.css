@@ -2,11 +2,13 @@
 /*Sam Libby: Head*/
 /* FONT */
 h3 {font-family: "Mountains of Christmas", serif;}
-h1,body,h4,h5 {font-family: serif;}
+h1,h4,h5 {font-family: serif;}
 
 h2{
-  {font-family: "Mountains of Christmas";}
+  font-family: "Mountains of Christmas";
 }
+  
+
 
 /*Allan Bedan: Navbar* November 27 2019/
 /* NAV BAR */
