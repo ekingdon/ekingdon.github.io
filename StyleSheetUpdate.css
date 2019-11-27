@@ -57,7 +57,7 @@ li a:hover {
     text-align: center;
 }
 
-<!--html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+/*html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 /* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
 html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
 article,aside,details,figcaption,figure,footer,header,main,menu,nav,section{display:block}summary{display:list-item}
@@ -206,4 +206,4 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-white,.w3-hover-white:hover{color:#000!important;background-color:#fff!important}
 .w3-black,.w3-hover-black:hover{color:#fff!important;background-color:#000!important}
 .w3-dark-grey,.w3-hover-dark-grey:hover,.w3-dark-gray,.w3-hover-dark-gray:hover{color:#fff!important;background-color:#ff4d4d!important}
--->
+*/
