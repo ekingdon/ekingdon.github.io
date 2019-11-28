@@ -59,9 +59,12 @@ li a:hover {
 p{
   font-family: Arial;
 }
+
 .employee-pic {
     padding-top: 50px;
     padding-bottom: 10px; display: block;margin-left: auto;margin-right: auto;width: 50%;}
+
+.employee-page {margin-left:500px;}
 
 
 /*RESPONSIVE DESIGN*/
