@@ -58,7 +58,9 @@ li a:hover {
 }
 
 
-.employee-pic {display: block;margin-left: auto;margin-right: auto;width: 50%;}
+.employee-pic {
+    padding-top: 50px;
+    padding-bottom: 10px; display: block;margin-left: auto;margin-right: auto;width: 50%;}
 
 
 /*RESPONSIVE DESIGN*/
