@@ -27,6 +27,10 @@ h2{
 }
 
 QualList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
   
 li {
   float: left;
