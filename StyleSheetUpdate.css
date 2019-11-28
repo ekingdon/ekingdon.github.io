@@ -57,7 +57,9 @@ li a:hover {
     text-align: center;
 }
 
-
+p{
+  font-family: HighTower, Text
+}
 .employee-pic {
     padding-top: 50px;
     padding-bottom: 10px; display: block;margin-left: auto;margin-right: auto;width: 50%;}
