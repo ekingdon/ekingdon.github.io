@@ -1,11 +1,7 @@
 // Referred to P. 442-447 in "Javascript & JQuery: Interactive Front-End Web Development" by Jon Duckett
 // Referred to https://www.w3schools.com/js/js_function_call.asp for additonal support
 // Referred to https://www.sitepoint.com/google-maps-javascript-api-the-right-way/
-
-document.addEventListener('LoadContent', function ()
-  if (document.querySelectorAll('northpole').length >0)
-
-{
+// Referred to https://www.elharony.com/initmap-is-not-a-function/
 
 function init() {
   var mapOptions = {
