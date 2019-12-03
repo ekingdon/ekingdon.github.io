@@ -3,14 +3,22 @@
 // Referred to https://www.sitepoint.com/google-maps-javascript-api-the-right-way/
 // Referred to https://www.elharony.com/initmap-is-not-a-function/
 
+var map;
 function initMap() {
-  var mapOptions = {
-    center: new google.maps.LatLng(64.7511563,-147.3793779),
-    mapTypeID: google.maps.MapTypeId.ROADMAP,
-    zoom:13 };
+  map = new google.maps.Map(document.getElementById('map'), {
+    center: {lat: 64.7511563, lng: -147.3793779},
+    zoom: 8
+  });
+}
+
+//function initMap() {
+  //var mapOptions = {
+    //center: new google.maps.LatLng(64.7511563,-147.3793779),
+    //mapTypeID: google.maps.MapTypeId.ROADMAP,
+    //zoom:13 };
     
-    var venueMap;
-    venueMap = new google.maps.Map (document.getElementById('northpole'), mapOptions);
+    //var venueMap;
+    //venueMap = new google.maps.Map (document.getElementById('northpole'), mapOptions);
 }
 
 function loadScript(){ 
