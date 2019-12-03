@@ -15,5 +15,6 @@ function loadScript(){
   var script = document.createElement('script');
   script.src = 'http://maps.googleapis.com/api/js?sensor=false&callback=init';
   document.body.appendChild(script);
+}
   
   window.onload = loadScript;
