@@ -27,6 +27,7 @@ h2{
 }
 
 QualList {
+  word-spacing: normal;
   list-style-type: none;
   margin: 0;
   padding: 0;
