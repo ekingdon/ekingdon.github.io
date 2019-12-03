@@ -3,7 +3,7 @@
 // Referred to https://www.sitepoint.com/google-maps-javascript-api-the-right-way/
 
 document.addEventListener('LoadContent', function ()
-  if (document.querySelectorAll('#northpole').length >0)
+  if (document.querySelectorAll('northpole').length >0)
 
 {
 
