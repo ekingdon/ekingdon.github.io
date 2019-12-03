@@ -56,6 +56,30 @@ li a:hover {
 .logo {padding-right: 0px;padding-left: 50px;border-left-width: 10px;margin-left: 20px;margin-right: 20px;
   margin-top: 0px;margin-bottom: 20px;float: left; width: 300px;}
 
+.SleighParts {
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  padding-top:5%;
+  padding-bottom: 5%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*aligning the footer statement to be centred */
 
 #footer {
