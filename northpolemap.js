@@ -19,7 +19,7 @@ function initMap() {
     
     //var venueMap;
     //venueMap = new google.maps.Map (document.getElementById('northpole'), mapOptions);
-}
+//}
 
 function loadScript(){ 
   var script = document.createElement('script');
