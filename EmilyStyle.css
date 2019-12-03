@@ -50,8 +50,8 @@ li a:hover {
 }
 
 .SleighCompPhoto {
-  padding-top: 5%;
-  align-item: Centre    
+  display: block 
+  margins: 0% auto;
 }
 
 
