@@ -13,7 +13,7 @@ function init() {
 
 function loadScript(){ 
   var script = document.createElement('script');
-  script.src = 'https://maps.googleapis.com/api/js?key=AIzaSyBjZiWFPIlj4Gx4aa2YQsphCnOOVR5UBj8&callback=initMap"e&callback=init';
+  script.src = 'https://maps.googleapis.com/api/js?key=AIzaSyBjZiWFPIlj4Gx4aa2YQsphCnOOVR5UBj8&callback=initMap';
   document.body.appendChild(script);
 }
   
