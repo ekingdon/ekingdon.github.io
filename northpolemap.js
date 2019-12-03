@@ -3,7 +3,7 @@
 // Referred to https://www.sitepoint.com/google-maps-javascript-api-the-right-way/
 // Referred to https://www.elharony.com/initmap-is-not-a-function/
 
-function init() {
+function initMap() {
   var mapOptions = {
     center: new google.maps.LatLng(64.7511563,-147.3793779),
     mapTypeID: google.maps.MapTypeId.ROADMAP,
