@@ -30,8 +30,6 @@ QualList {
   text-align: center;
   word-spacing: normal;
   list-style-type: none;
-  margin-left: 10;
-  margin-right: 10;
   padding: 0;
 }
   
@@ -70,9 +68,9 @@ li a:hover {
   border-width: 2; 
   border-style: solid;
   border-color: red;
-  border-radius: 12;
-  margin-left: 25;
-  margin-right: 15;
+  border-radius: 12%;
+  margin-left: 50%;
+  margin-right: 15%;
 }
 
 
