@@ -5,7 +5,7 @@
 
 var map;
 function initMap() {
-  map = new google.maps.Map(document.getElementById('map'), {
+  map = new google.maps.Map(document.getElementById('northpole'), {
     center: {lat: 64.7511563, lng: -147.3793779},
     zoom: 8
   });
