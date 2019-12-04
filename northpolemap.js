@@ -25,6 +25,6 @@ function loadScript(){
   var script = document.createElement('script');
   script.type = 'text/javascript';
   script.src = 'https://maps.googleapis.com/api/js?key=AIzaSyBjZiWFPIlj4Gx4aa2YQsphCnOOVR5UBj8&callback=initMap';
-  document.getElementByTagName('northpole')[0].appendChild(script); }
+  document.getElement('northpole')[0].appendChild(script); }
   
   window.onload = loadScript; 
