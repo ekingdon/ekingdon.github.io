@@ -27,7 +27,7 @@ h2{
 }
 
 .QualList {
-  text-align: center;
+  text-align: left;
   list-style-type: square;
   margin: 0;
   padding: 0;
@@ -51,11 +51,13 @@ li a:hover {
 }
 
 .SleighCompPhoto {
-  margin-left: auto;
+  margin-left:40%;
   margin-right: auto;
-  width: 25%;
-  padding-top:5%;
-  padding-bottom: 5%
+  width: 100%;
+  height: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  desc:
 }
 
 

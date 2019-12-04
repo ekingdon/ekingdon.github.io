@@ -24,10 +24,19 @@ h2{
   padding: 0;
   background-color: #ffffff;
   cursor: pointer;
+  position: sticky;
 }
 
-ul {
-  position: sticky;
+#navbar.sticky {
+  position:sticky;
+  top:0;
+  list-style-type: none;
+  border-bottom: 3px solid #5F9239;
+  border-style: outset;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  cursor: pointer;
 }
 
 QualList {
@@ -47,7 +56,10 @@ li a {
   text-align: center;
   padding: 20px 20px;
   text-decoration: none;
+  transition: color 1s, background-color 1s;
 }
+
+/*background transition based on https://www.w3schools.com/css/css3_transitions.asp*/
 
 li a:hover {
     background-color: #5f9239;
