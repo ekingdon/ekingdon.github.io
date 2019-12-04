@@ -65,6 +65,7 @@ li a:hover {
 }
 
 .Cost {
+  text-align: Center;
   border-width: 2; 
   border-style: solid;
   border-color: red;
