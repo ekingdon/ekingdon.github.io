@@ -127,6 +127,16 @@ p{
 
 .employee-page {margin-left:20%;}
 
+/* Styling for Service Page */
+
+.North-Pole {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top:5%;
+  padding-bottom: 5%
+}
+
 
 /*RESPONSIVE DESIGN from W3Schools: https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_blog&stacked=h */
 .w3-responsive{display:block;overflow-x:auto}
