@@ -65,11 +65,12 @@ li a:hover {
 }
 
 .Cost {
-  border: 2px; 
-  border-color: solid red;
-  border-radius: 12px;
-  margin-left: 25%;
-  margin-right: 15%;
+  border-width: 2; 
+  border-style: solid;
+  border-color: red;
+  border-radius: 12;
+  margin-left: 25;
+  margin-right: 15;
 }
 
 
