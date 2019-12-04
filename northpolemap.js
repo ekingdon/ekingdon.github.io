@@ -11,7 +11,7 @@ function initMap() {
   });
 }
 
-//function initMap() {
+function initMap() {
   //var mapOptions = {
     //center: new google.maps.LatLng(64.7511563,-147.3793779),
     //mapTypeID: google.maps.MapTypeId.ROADMAP,
@@ -19,7 +19,7 @@ function initMap() {
     
     //var venueMap;
     //venueMap = new google.maps.Map (document.getElementById('northpole'), mapOptions);
-//}
+}
 
 function loadScript(){ 
   var script = document.createElement('script');
