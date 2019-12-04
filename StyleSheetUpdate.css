@@ -1,4 +1,5 @@
 /* W3.CSS 4.13 June 2019 by Jan Egil and Borge Refsnes */
+
 /*Sam Libby: Head*/
 /* FONT */
 h3 {font-family: "Mountains of Christmas", serif;}
@@ -7,7 +8,7 @@ h1,h4,h5 {font-family: serif;}
 h2{
   font-family: "Mountains of Christmas";
 }
-  
+
 .Services-Container{
   font-family: Trattatello, fantasy;
 }
@@ -16,6 +17,7 @@ h2{
 /*Allan Bedan: Navbar* November 27 2019/
 /* NAV BAR */
 /* NAV BAR BORDER REFERENCE https://stackoverflow.com/questions/42707218/css-how-to-put-a-border-around-the-entire-nav-bar*/
+
 #navbar {
   list-style-type: none;
   border-bottom: 3px solid #5F9239;
@@ -59,7 +61,7 @@ li a {
   transition: color 1s, background-color 1s;
 }
 
-/*background transition based on https://www.w3schools.com/css/css3_transitions.asp*/
+/* Background transition based on https://www.w3schools.com/css/css3_transitions.asp: Allan Beldan*/
 
 li a:hover {
     background-color: #5f9239;
@@ -68,9 +70,12 @@ li a:hover {
 
 /* end of 'nav bar' style */
 
-/*Sam Libby*/
+/*Aligning the Logo :Sam Libby*/
 .logo {padding-right: 0px;padding-left: 50px;border-left-width: 10px;margin-left: 20px;margin-right: 20px;
   margin-top: 0px;margin-bottom: 20px;float: left; width: 300px;}
+
+
+/* Style for Sleigh Technician Page: Allan Beldan */
 
 .SleighPart {
   margin-left: auto;
@@ -104,20 +109,8 @@ th {
   font-size: 130%;
   font-family: "Mountains of Christmas";
 }
-  
 
-
-
-
-
-
-
-
-
-
-
-
-/*aligning the footer statement to be centred */
+/* Aligning the footer statement to be centred - Sam Libby */
 
 #footer {
     text-align: center;
@@ -127,6 +120,7 @@ p{
   font-family: Arial;
 }
 
+/* Aligning the Employee Pictures to be centred - Sam Libby */
 .employee-pic {
     padding-top: 50px;
     padding-bottom: 10px; display: block;margin-left: auto;margin-right: auto;width: 50%;}
@@ -134,7 +128,7 @@ p{
 .employee-page {margin-left:20%;}
 
 
-/*RESPONSIVE DESIGN*/
+/*RESPONSIVE DESIGN from W3Schools: https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_blog&stacked=h */
 .w3-responsive{display:block;overflow-x:auto}
 .w3-container:after,.w3-container:before,.w3-panel:after,.w3-panel:before,.w3-row:after,.w3-row:before,.w3-row-padding:after,.w3-row-padding:before,
 .w3-cell-row:before,.w3-cell-row:after,.w3-clear:after,.w3-clear:before,.w3-bar:before,.w3-bar:after{content:"";display:table;clear:both}
