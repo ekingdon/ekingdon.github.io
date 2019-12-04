@@ -12,13 +12,13 @@ function initMap() {
 }
 
 function initMap() {
-  //var mapOptions = {
-    //center: new google.maps.LatLng(64.7511563,-147.3793779),
-    //mapTypeID: google.maps.MapTypeId.ROADMAP,
-    //zoom:13 };
+  var mapOptions = {
+    center: new google.maps.LatLng(64.7511563,-147.3793779),
+    mapTypeID: google.maps.MapTypeId.ROADMAP,
+    zoom:13 };
     
-    //var venueMap;
-    //venueMap = new google.maps.Map (document.getElementById('northpole'), mapOptions);
+    var venueMap;
+    venueMap = new google.maps.Map (document.getElementById('northpole'), mapOptions);
 }
 
 function loadScript(){ 
