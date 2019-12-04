@@ -81,7 +81,7 @@ li a:hover {
 }
 
 td {
-  padding-left: 10%;
+  padding-left: 20%;
   text-align: left;
   
 }
@@ -89,7 +89,7 @@ td {
 th {
   padding-left: 10%;
   text-align: left;
-  font-size: 100%;
+  font-size: 180%;
   text-align: Center;
 }
   
