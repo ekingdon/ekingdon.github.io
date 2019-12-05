@@ -86,13 +86,6 @@ h2{
   background-color: #ffffff;
   cursor: pointer;
 }
-
-QualList {
-  text-align: center;
-  word-spacing: normal;
-  list-style-type: Square;
-  padding-left: 20%;
-}
   
 li {
   float: left;
@@ -128,6 +121,7 @@ input[type=number]{
 
 
 /* Style for Sleigh Technician Page: Allan Beldan */
+/*Sleigh part image*/
 
 .SleighPart {
   margin-left: auto;
@@ -137,6 +131,8 @@ input[type=number]{
   padding-bottom: 5%
 }
 
+/* Emily*/
+/*boder layout in service page*/
 .Cost {
   text-align: left;
   border-width: 2%; 
@@ -149,18 +145,26 @@ input[type=number]{
   padding-bottom:10%
 }
 
+/*Emily*/
+/*Table*/
+/*Column Formatting*/
 td {
   padding-left: 15%;
   text-align: left;
   
 }
 
+
+/*Table*/
+/*Column Formatting*/
 th {
   padding-left: 10%;
   text-align: left;
   font-size: 130%;
   font-family: "Mountains of Christmas";
 }
+/*Emily's Part over*/
+
 
 /* Aligning the footer statement to be centred - Sam Libby */
 
@@ -168,6 +172,7 @@ th {
     text-align: center;
 }
 
+/*All p tags will be arial font*/
 p{
   font-family: Arial;
 }
@@ -186,6 +191,7 @@ p{
   margin-left:20%;
 }
 
+/*Sam*/
 .Reindeer2 {
   padding-top: 70px;
   padding-bottom: 20px; 
@@ -195,8 +201,8 @@ p{
   width: 50%;
 }
 
-/* Referred to: https://www.w3schools.com/cssref/css3_pr_box-sizing.asp*/
 
+/* Referred to: https://www.w3schools.com/cssref/css3_pr_box-sizing.asp*/
 .list {
   width: 200px;
   height: 400px;
@@ -225,13 +231,13 @@ p{
 	background-color: #0DCD47;
 }
 
-
+/*Ben*/
 .North-Pole {
   padding-top:5%;
   padding-bottom: 5%;
 }
 
-	/* Clear floats after the columns https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_three_columns*/
+/* Clear floats after the columns https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_three_columns*/
 .row{
 	content: "";
 	display: table;
