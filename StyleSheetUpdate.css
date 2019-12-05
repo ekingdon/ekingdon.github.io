@@ -44,7 +44,7 @@
   margin-top: 0px;
   margin-bottom: 20px;
   float: left;
-  width: 300px;
+  width: 200px;
 }
 
 /* FONT */
@@ -187,7 +187,9 @@ p{
     margin-right: auto;
     width: 50%;
 }
-.employee-page {margin-left:20%;}
+.employee-page {
+  margin-left:20%;
+}
 
 /*Sam*/
 .Reindeer2 {
@@ -196,12 +198,11 @@ p{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%
+  width: 50%;
 }
 
 
 /* Referred to: https://www.w3schools.com/cssref/css3_pr_box-sizing.asp*/
-/*Sam*/
 .list {
   width: 200px;
   height: 400px;
@@ -233,7 +234,7 @@ p{
 /*Ben*/
 .North-Pole {
   padding-top:5%;
-  padding-bottom: 5%
+  padding-bottom: 5%;
 }
 
 /* Clear floats after the columns https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_three_columns*/
