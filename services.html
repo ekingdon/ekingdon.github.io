@@ -187,50 +187,49 @@ and is wrapped around the whole page content, except for the footer in this exam
 			var cashout = "";}
 		if (cake > 0) {
 			if (cake > 1) {var cakeout = cake + " Christmas Cakes, ";}
-			else {var cakeout = cake + "Christmas Cake, ";}
+			else {var cakeout = cake + "Christmas Cake, ";}}
 		else {
 			var cakeout = "";}
 		if (ginger > 0) {
 		if (ginger > 1) {var gingerout = ginger + " Gingerbread Houses, ";}
-			else {var gingerout = ginger + "Gingerbread House, ";}
+			else {var gingerout = ginger + "Gingerbread House, ";}}
 		else {var gingerout = "";}
 		if (santa > 0) {
 			if (santa > 1) {var santaout = santa + " Chocolate Santas, ";}
-			else {var santaout = santa + "Chocolate Santa, ";}
+			else {var santaout = santa + "Chocolate Santa, ";}}
 		else {
 			var santaout = "";}
 		if (sugar > 0) {
 			if (sugar > 1) {var sugarout = sugar + " Sugar Cookies, ";}
-			else {var sugarout = sugar + "Sugar Cookies, ";}
+			else {var sugarout = sugar + "Sugar Cookies, ";}}
 		else {
 			var sugarout = "";}
 		if (candy > 0) {
 			if (candy > 1) {var candyout = candy + " Candy Canes, ";}
-			else {var candyout = candy + "Candy Cane, ";}
+			else {var candyout = candy + "Candy Cane, ";}}
 		else {
 			var candyout = "";}
 		if (milk > 0) {
 			if (milk > 1) {var milkout = milk + " Glasses of Milk, ";}
-			else {var milkout = milk + "Glass of Milk, ";}
+			else {var milkout = milk + "Glass of Milk, ";}}
 		else {
 			var milkout = "";}
 		if (gumball > 0) {
 			if (gumball > 1) {var gumballout = gumball + " Gumballs, ";}
-			else {var gumballout = gumball + "Gumball, ";}
+			else {var gumballout = gumball + "Gumball, ";}}
 		else {
 			var gumballout = "";}
 		if (plum > 0) {
 			if (plum > 1) {var plumout = plum + " Sugar Plums, ";}
-			else {var plumout = plum + "Sugar Plum, ";}
+			else {var plumout = plum + "Sugar Plum, ";}}
 		else {
 			var plumout = "";}
-		var output = "Your estimated cost is + cashout + cakeout + gingerout + santaout + sugarout + candyout + milkout + gumballout + plumout;
-		return output;
+		var output = "Your estimated cost is" + cashout + cakeout + gingerout + santaout + sugarout + candyout + milkout + gumballout + plumout;
+		document.getElementByID("outputtext").innerHTML = output;
 		}
 	</script>
 	<div class = "jsout">
-	<button onclick document.getElementByID("outputtext").innerHTML = CalculateCost()
-	> Give me an estimate! </button><!-- Input based on https://www.w3schools.com/js/tryit.asp?filename=tryjs_validation_js -->
+	<button onclick = "CalculateCost()"> Give me an estimate! </button><!-- Input based on https://www.w3schools.com/js/tryit.asp?filename=tryjs_validation_js -->
 	<p id = "outputtext"> </p>
 	</div>
 <!-- Input based on https://www.w3schools.com/js/tryit.asp?filename=tryjs_validation_js-->
