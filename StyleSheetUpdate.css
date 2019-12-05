@@ -193,23 +193,9 @@ p{
 	margin-right: 0px;
 	margin-left: 0px;
 	color: #FE1E1E;
-	background-color: #8D939F;
+	background-color: #0DCD47;
 }
 
-a:link { /* Source:https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_colors */
-	color: #FE0101;
-	background-color: transparent;
-	text-decoration: none;
-}
-a:visited { /* Source:https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_colors */
-	color: #F5F8FD;
-	background-color: transparent;
-	text-decoration: none;
-}
-a:hover { /* Source:https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_colors */
-	color: #4188FF;
-	background-color: transparent;
-	text-decoration: none;
 
 .North-Pole {
   padding-top:5%;
