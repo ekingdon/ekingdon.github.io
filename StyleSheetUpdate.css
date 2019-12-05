@@ -165,6 +165,20 @@ p{
 	background-color: #8D939F;
 }
 
+bc:link { /* Source:https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_colors */
+	color: #ECF2FF;
+	background-color: transparent;
+	text-decoration: none;
+}
+bc:visited { /* Source:https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_colors */
+	color: #F5F8FD;
+	background-color: transparent;
+	text-decoration: none;
+}
+bc:hover { /* Source:https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_colors */
+	color: #4188FF;
+	background-color: transparent;
+	text-decoration: none;
 
 .North-Pole {
   padding-top:5%;
