@@ -175,9 +175,6 @@ th {
 
 /* Aligning the footer statement to be centred - Sam Libby */
 
-#footer {
-    text-align: center;
-}
 
 /*All p tags will be arial font*/
 p{
@@ -295,4 +292,9 @@ p{
 	width: 50px;
 	padding: 30px;
 	box-sizing: border-box;
+}
+
+/* Sam */ 
+#footer {
+    text-align: center;
 }
