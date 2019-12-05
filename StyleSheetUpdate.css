@@ -48,16 +48,15 @@
 }
 
 /* FONT */
-h3 {font-family: "Mountains of Christmas", serif;}
-h1,h4,h5 {font-family: serif;}
 
-h2{
-  font-family: "Mountains of Christmas";
-}
 
 .Services-Container{
   font-family: Trattatello, fantasy;
 }
+
+/* Font Source: https://www.cssfontstack.com/Mountains-of-Christmas */
+h3,h2 {font-family: "Mountains of Christmas", serif;}
+h1,h4,h5 {font-family: serif;}
 
 
 /*Allan Bedan: Navbar* November 27 2019/
