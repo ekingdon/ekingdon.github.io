@@ -297,23 +297,6 @@ p{
 /* Sam: Footer */ 
 /* Reference: https://stackoverflow.com/questions/3525581/how-to-align-footer-div-to-the-bottom-of-the-page */
 
-#wrapper {
-  background-color: white;
-  min-height: 100%;
-  height: auto !important;
-  margin-bottom: -50px;
-}
-
-#wrapper:after {
-  content: "";
-  display: block;
-  height: 50px;
-}
-
-#content {
-  height: 100%;
-}
-
 #footer {
   height: 50px;
 }
