@@ -4,6 +4,8 @@
 // Referred to https://www.elharony.com/initmap-is-not-a-function/
 // Referred to https://developers.google.com/maps/documentation/javascript/tutorial
 
+// SAM
+// ATTEMPT --- NOT USING 
 var map;
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
