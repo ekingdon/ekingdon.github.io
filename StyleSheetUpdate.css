@@ -1,6 +1,11 @@
 /* W3.CSS 4.13 June 2019 by Jan Egil and Borge Refsnes */
 
 /*Sam Libby: Head*/
+
+/*Aligning the Logo :Sam Libby*/
+.logo {padding-right: 0px;padding-left: 50px;border-left-width: 10px;margin-left: 20px;margin-right: 20px;
+  margin-top: 0px;margin-bottom: 20px;float: left; width: 300px;}
+
 /* FONT */
 h3 {font-family: "Mountains of Christmas", serif;}
 h1,h4,h5 {font-family: serif;}
@@ -79,9 +84,6 @@ input[type=number]{
 
 /* End Text Box Style */
 
-/*Aligning the Logo :Sam Libby*/
-.logo {padding-right: 0px;padding-left: 50px;border-left-width: 10px;margin-left: 20px;margin-right: 20px;
-  margin-top: 0px;margin-bottom: 20px;float: left; width: 300px;}
 
 
 /* Style for Sleigh Technician Page: Allan Beldan */
