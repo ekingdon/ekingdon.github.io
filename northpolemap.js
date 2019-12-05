@@ -5,7 +5,7 @@
 // Referred to https://developers.google.com/maps/documentation/javascript/tutorial
 
 // SAM
-// ATTEMPT --- DID NOT USE 
+// ATTEMPT --- NOT USING 
 var map;
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
