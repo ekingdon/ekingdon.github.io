@@ -188,9 +188,9 @@ p{
 .list {
   width: 250px;
   height: 300px;
-  padding: 50px;  
+  padding: 20px;  
   border: 5px dotted green;
-  align-content: center;
+  margin: auto;
 }
 
 /* Styling for Service Page - Ben Colgan */
