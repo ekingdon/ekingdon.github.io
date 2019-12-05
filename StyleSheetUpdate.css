@@ -179,13 +179,13 @@ p{
 /* Styling for Service Page - Ben Colgan */
 
 .link{
-	width:536px;
+	width:250px;
 	height:20px;
 	margin-top: 0px;
 	margin-bottom: 20px;
 	margin-right: 0px;
 	margin-left: 0px;
-	text-align: center;
+	text-align: left;
 	font-family: "Mountains of Christmas";
 	font-weight: bold;
 	border: 1px solid black;
