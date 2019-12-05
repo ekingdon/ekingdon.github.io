@@ -193,10 +193,6 @@ p{
   margin: auto;
 }
 
-.about {
-  padding: 20px;
-}
-
 /* Styling for Service Page - Ben Colgan */
 
 .link{
@@ -239,4 +235,4 @@ p{
 }
 /* https://stackoverflow.com/questions/3029422/how-do-i-auto-resize-an-image-to-fit-a-div-container*/
 img{
-	width: 120%;
+	width: 100%;
