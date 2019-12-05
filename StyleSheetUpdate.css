@@ -211,10 +211,10 @@ p{
 }
 
 
-/* Referred to: https://www.w3schools.com/cssref/css3_pr_box-sizing.asp*/
+/* Referred to: https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing */
 .list {
-  width: 200px;
-  height: 400px;
+  width: 250px;
+  height: 450px;
   padding: 20px;  
   border: 5px dotted green;
   margin: auto;
