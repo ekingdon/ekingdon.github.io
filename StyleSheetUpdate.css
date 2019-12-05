@@ -244,6 +244,14 @@ p{
   float: right;
 }
 
+#services_home_centre {
+  width: 500px;
+  height: 250px;
+  padding: 50px;
+  border: none;
+  margin: auto;
+}
+
 /* Styling for Service Page - Ben Colgan */
 
 .link{
