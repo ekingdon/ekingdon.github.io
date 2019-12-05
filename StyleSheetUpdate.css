@@ -78,12 +78,8 @@ h2{
   cursor: pointer;
 }
 
-QualList {
-  text-align: center;
-  word-spacing: normal;
-  list-style-type: Square;
-  padding-left: 20%;
-}
+/*list for individual employee pages.*/
+
   
 li {
   float: left;
@@ -173,6 +169,7 @@ p{
     margin-right: auto;
     width: 50%;
 }
+.employee-page {margin-left:20%;}
 
 .Reindeer2 {
   padding-top: 70px;
@@ -183,7 +180,15 @@ p{
   width: 50%
 }
 
-.employee-page {margin-left:20%;}
+/* Referred to: https://www.w3schools.com/cssref/css3_pr_box-sizing.asp*/
+/* Sam Libby*/
+.list {
+  width: 200px;
+  height: 400px;
+  padding: 20px;  
+  border: 5px dotted green;
+  margin: auto;
+}
 
 /* Styling for Service Page - Ben Colgan */
 
@@ -221,9 +226,9 @@ p{
 .imagecolumn{ /* Source: https://www.w3schools.com/css/css_float.asp*/
 	float: left;
 	width: 50%;
-	padding: 5px;
+	padding: 40px;
 	box-sizing: border-box;
 }
 /* https://stackoverflow.com/questions/3029422/how-do-i-auto-resize-an-image-to-fit-a-div-container*/
 img{
-	width: 80%;
+	width: 100%;
