@@ -143,49 +143,49 @@ and is wrapped around the whole page content, except for the footer in this exam
     <tr>
       <td>Runner Tread Repair</td>
       <td> 269 Candy Canes</td>
-      <td><form><input type="checkbox" name="RunnerTread"></form></td>
+      <td><form><input type="checkbox" name="cbRunnerTread" value = 1></form></td>
     </tr>
 
     <tr>
       <td>Windshield Instalation/Repair/Replacements</td>
       <td> 5 Sugar Plums and a Christmas Cake</td>
-      <td><form><input type="checkbox" name="Windshield"></form></td>
+      <td><form><input type="checkbox" name="cbWindshield" value = 1></form></td>
     </tr>
 
     <tr>
       <td>Jet Engine Booster</td>
       <td>$2000 CAD</td>
-      <td><form><input type="checkbox" name="JetEngine"></form></td>
+      <td><form><input type="checkbox" name="cbJetEngine" value = 1></form></td>
     </tr>
 
 
     <tr>
       <td>Happy and Nice List Reader</td>
       <td>55 Candy Canes</td>
-      <td><form><input type="checkbox" name="Reader"></form></td>
+      <td><form><input type="checkbox" name="cbReader" value = 1></form></td>
     </tr>
 
     <tr>
       <td>GPS Repair</td>
       <td>2.50 Gingerbread Houses</td>
-      <td><form><input type="checkbox" name="GPS"></form></td>
+      <td><form><input type="checkbox" name="cbGPS" value = 1></form></td>
     </tr>
 
     <tr>
       <td>Hot Chocolate Dispenser Repair</td>
       <td>10 Sugar Cookies</td>
-      <td><form><input type="checkbox" name="HotChocolate"></form></td>
+      <td><form><input type="checkbox" name="cbHotChocolate" value = 1></form></td>
     </tr>
       <tr>
       <td>Seat Covers Installation</td>
       <td>3 Glasses of Milk</td>
-      <td><form><input type="checkbox" name="SeatCover"></form></td>
+      <td><form><input type="checkbox" name="cbSeatCover" value = 1></form></td>
     </tr>
 
     <tr>
       <td>Heated Seat Repair</td>
       <td>36 Gumballs and 1 Chocolate Santa</td>
-      <td><form><input type="checkbox" name="HeatedSeat"></form></td>
+      <td><form><input type="checkbox" name="cbHeatedSeat" value = 1></form></td>
     </tr>
   </tale>
  </div> 
@@ -193,20 +193,39 @@ and is wrapped around the whole page content, except for the footer in this exam
   
 <!--Temporary Javascript Scratch Section Allan-->
 	<script> function CalculateCost() {
-		var runner = 134.5;
-		var windshield = 50.1;
-		var booster = 2000;
-		var reader = 52.5;
-		var gps = 25;
-		var chocolate = 15;
-		var cover 9;
-		var heated 10.72;
-		var totalcost;
-		
+		var runner = 134.5,
+		    windshield = 50.1,
+		    booster = 2000,
+		    reader = 52.5,
+		    gps = 50,
+		    chocolate = 15,
+		    cover 9,
+		    heated 10.72; //Cash worth 1, Christmas cake worth 50, Gingerbread houses worth 20, chocolate santa worth 10, sugar cookies worth 1.5, Candy canes worth 0.5, gumballs worth 0.2, sugar plums worth 0.01
+		var MacOSPlatforms = ['Macintosh', 'MacIntel', 'MacPPC', 'Mac68K']; // https://stackoverflow.com/questions/38241480/detect-macos-ios-windows-android-and-linux-os-with-js
+		var totalcost = (runner * cbRunnerTread) + (windshield * cbWindsShield) + (booster * cbJetEngine) + (reader * cbReader) + (gps * cbGPS) + (chocolate * cbHotChocolate) + (cover * cbSeatCover) + (heated * cbHeatedSeat);
+		var cash = Math.round(totalcost/1000);
+		var cake = Math.round((totalcost-cash)/50);
+		var ginger = Math.round((totalcost-cash-cake)/20);
+		var santa = Math.round((totalcost-cash-cake-ginger)/10);
+		var sugar = Math.round((totalcost-cash-cake-ginger-santa)/1.5);
+		var candy = Math.round((totalcost-cash-cake-ginger-santa-sugar)/0.5);
+		var gumball = Math.round((totalcost-cash-cake-ginger-santa-sugar-candy)/0.5);
+		var plum = Math.round((totalcost-cash-cake-ginger-santa-sugar-candy-gumball)/0.5);
+		if (cash > 0) {
+			var cashout = "$2000, ";}
+		else {
+			var cashout = "";}
+		if (cake > 0) {
+			if (cake > 1) {}
+				
+			var cashout = "$2000, ";}
+		else {
+			var cashout = "";}
+		var output = "Your estimated cost is $" + cash + ", " + cake + " Christmas cakes, " + ginger + " gingerbread houses, " + santa + " chocolate santas, " + "
 		}
 	</script>
-	<button onclick document.getElementByID('output') <!-- Input based on https://www.w3schools.com/js/tryit.asp?filename=tryjs_validation_js>
-	var Runner = > Give me an estimate! </button>
+	<button onclick document.getElementByID('output') 
+	> Give me an estimate! </button><!-- Input based on https://www.w3schools.com/js/tryit.asp?filename=tryjs_validation_js>
 	
 	
 	
