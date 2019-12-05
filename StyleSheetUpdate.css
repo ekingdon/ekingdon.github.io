@@ -254,7 +254,7 @@ p{
 .North-Pole {
 	padding-top:5%;
 	padding-bottom: 5%;
-	width: 50%;
+	width: 50px;
 }
 
 * {
@@ -270,7 +270,7 @@ p{
 
 .imagecolumn{ /* Source: https://www.w3schools.com/css/css_float.asp*/
 	float: left;
-	width: 50%;
+	width: 50px;
 	padding: 30px;
 	box-sizing: border-box;
 }
