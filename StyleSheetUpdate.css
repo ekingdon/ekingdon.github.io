@@ -72,10 +72,12 @@ li a:hover {
 
 /* Input text box style: Allan Beldan */
 
-input[type-number{
-  width = 40px
+input[type-number]{
+  width = 40px;
 }
 /* based on https://stackoverflow.com/questions/22709792/input-type-number-wont-resize */
+
+/* End Text Box Style */
 
 /*Aligning the Logo :Sam Libby*/
 .logo {padding-right: 0px;padding-left: 50px;border-left-width: 10px;margin-left: 20px;margin-right: 20px;
