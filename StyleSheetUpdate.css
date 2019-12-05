@@ -179,7 +179,7 @@ p{
 /* Styling for Service Page - Ben Colgan */
 
 .link{
-	width:400px;
+	width:536px;
 	height:20px;
 	margin-top: 0px;
 	margin-bottom: 20px;
@@ -197,7 +197,7 @@ p{
 }
 
 a:link { /* Source:https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_colors */
-	color: #ECF2FF;
+	color: #FE0101;
 	background-color: transparent;
 	text-decoration: none;
 }
