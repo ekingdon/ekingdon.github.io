@@ -187,9 +187,10 @@ p{
 /* Referred to: https://www.w3schools.com/cssref/css3_pr_box-sizing.asp*/
 .list {
   width: 250px;
-  height: 500px;
+  height: 300px;
   padding: 50px;  
-  border: 10px dotted green;
+  border: 5px dotted green;
+  align-content: center;
 }
 
 /* Styling for Service Page - Ben Colgan */
