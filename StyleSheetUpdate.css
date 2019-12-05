@@ -56,11 +56,11 @@ h2{
   cursor: pointer;
 }
 
-QualList {
-  text-align: center;
-  word-spacing: normal;
-  list-style-type: Square;
-  padding-left: 20%;
+.QualList {
+  text-align: left;
+  list-style-type: square;
+  margin: 0;
+  padding: 0;
 }
   
 li {
@@ -75,6 +75,25 @@ li a {
   text-decoration: none;
   transition: color 1s, background-color 1s;
 }
+
+.SleighCompPhoto {
+  margin-left:40%;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* Background transition based on https://www.w3schools.com/css/css3_transitions.asp: Allan Beldan*/
 
