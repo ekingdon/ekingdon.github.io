@@ -126,7 +126,7 @@ input[type=number]{
   margin-right: auto;
   width: 25%;
   padding-top:5%;
-  padding-bottom: 5%
+  padding-bottom: 5%;
 }
 
 
@@ -208,7 +208,7 @@ p{
   width: 50%;
 }
 
-
+/* Sam */
 /* Referred to: https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing */
 .list {
   width: 250px;
