@@ -229,7 +229,7 @@ p{
 .imagecolumn{ /* Source: https://www.w3schools.com/css/css_float.asp*/
 	float: left;
 	width: 50%;
-	padding: 5px;
+	padding: 40px;
 	box-sizing: border-box;
 }
 /* https://stackoverflow.com/questions/3029422/how-do-i-auto-resize-an-image-to-fit-a-div-container*/
