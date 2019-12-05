@@ -146,7 +146,7 @@ p{
 	margin-right: 0px;
 	margin-left: 0px;
 	text-align: left;
-	font-family: arial;
+	font-family: "Mountains of Christmas";
 	font-weight: bold;
 	border: 1px solid black;
 	margin-top: 0px;
@@ -154,6 +154,22 @@ p{
 	margin-left: 0px;
 	background-color: #8D939F;
 }
+
+a:link { /* Source:https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_colors */
+	color: #ECF2FF;
+	background-color: transparent;
+	text-decoration: none;
+}
+a:visited { /* Source:https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_colors */
+	color: #F5F8FD;
+	background-color: transparent;
+	text-decoration: none;
+}
+a:hover { /* Source:https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_colors */
+	color: #4188FF;
+	background-color: transparent;
+	text-decoration: none;
+
 
 .North-Pole {
   padding-top:5%;
