@@ -228,12 +228,20 @@ p{
   margin: auto;
 }
 
-#services_home {
+#services_home_left {
   width: 500px;
   height: 250px;
   padding: 50px;
   border: none;
   float: left;
+}
+
+#services_home_right {
+  width: 500px;
+  height: 250px;
+  padding: 50px;
+  border: none;
+  float: right;
 }
 
 /* Styling for Service Page - Ben Colgan */
