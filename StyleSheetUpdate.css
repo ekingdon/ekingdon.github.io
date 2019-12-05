@@ -115,7 +115,10 @@ input[type=number]{
 
 
 /* Style for Sleigh Technician Page: Allan Beldan */
+/* Image for sleigh parts*/
+/* Format the image*/
 
+/* Emily*/
 .SleighPart {
   margin-left: auto;
   margin-right: auto;
@@ -136,18 +139,22 @@ input[type=number]{
   padding-bottom:10%
 }
 
+/* This formats the table columns*/
 td {
   padding-left: 15%;
   text-align: left;
   
 }
-
+/* This updates table rows */
 th {
   padding-left: 10%;
   text-align: left;
   font-size: 130%;
   font-family: "Mountains of Christmas";
 }
+/* Emily's designing format over*/
+
+
 
 /* Aligning the footer statement to be centred - Sam Libby */
 
@@ -155,6 +162,7 @@ th {
     text-align: center;
 }
 
+/*all p tags are assigned arial font*/
 p{
   font-family: Arial;
 }
@@ -171,6 +179,7 @@ p{
 }
 .employee-page {margin-left:20%;}
 
+/*Sam*/
 .Reindeer2 {
   padding-top: 70px;
   padding-bottom: 20px; 
@@ -182,6 +191,7 @@ p{
 
 /* Referred to: https://www.w3schools.com/cssref/css3_pr_box-sizing.asp*/
 /* Sam Libby*/
+/*Reference style from Emily*/
 .list {
   width: 200px;
   height: 400px;
@@ -210,13 +220,14 @@ p{
 	background-color: #0DCD47;
 }
 
-
+/*Ownership: Ben*/
+/*For contact page*/
 .North-Pole {
   padding-top:5%;
   padding-bottom: 5%
 }
 
-	/* Clear floats after the columns https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_three_columns*/
+/* Clear floats after the columns https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_three_columns*/
 .row{
 	content: "";
 	display: table;
