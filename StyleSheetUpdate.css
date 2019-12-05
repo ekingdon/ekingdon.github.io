@@ -132,15 +132,6 @@ input[type=number]{
 }
 
 
-/*Emily*/
-/*List in 'about me' page*/
-.QualList {
-  text-align: center;
-  word-spacing: normal;
-  list-style-type: Square;
-  padding-left: 20%;
-}
-
 /* Emily*/
 /*boder layout in service page*/
 .Cost {
