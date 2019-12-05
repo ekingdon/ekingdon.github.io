@@ -202,13 +202,13 @@ p{
 }
 
 /*Sam*/
+/* Source: https://stackoverflow.com/questions/6169666/how-to-resize-an-image-to-fit-in-the-browser-window*/
 .Reindeer2 {
-  padding-top: 70px;
-  padding-bottom: 20px; 
+  padding: 0;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  margin: 0 auto;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 
