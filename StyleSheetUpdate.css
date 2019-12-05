@@ -35,8 +35,17 @@
 /*Sam Libby: Head*/
 
 /*Aligning the Logo :Sam Libby*/
-.logo {padding-right: 0px;padding-left: 50px;border-left-width: 10px;margin-left: 20px;margin-right: 20px;
-  margin-top: 0px;margin-bottom: 20px;float: left; width: 300px;}
+.logo {
+  padding-right: 0px;
+  padding-left: 50px;
+  border-left-width: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  float: left;
+  width: 300px;
+}
 
 /* FONT */
 h3 {font-family: "Mountains of Christmas", serif;}
