@@ -132,9 +132,16 @@ p{
 }
 
 /* Aligning the Employee Pictures to be centred - Sam Libby */
+/* Referred to: https://stackoverflow.com/questions/5214893/right-align-an-image-using-css-html*/
 .employee-pic {
     padding-top: 50px;
-    padding-bottom: 10px; display: block;margin-left: auto;margin-right: auto;width: 50%;}
+    padding-bottom: 10px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+    width: 50%;
+}
 
 .employee-page {margin-left:20%;}
 
