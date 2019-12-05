@@ -249,51 +249,14 @@ p{
   margin: auto;
 }
 
-/* Styling for Service Page - Ben Colgan */
+/* Styling for Christmas Cheer Button - Ben Colgan */
 
-.link{
-	width:220px;
-	height:20px;
-	margin-top: 0px;
-	margin-bottom: 20px;
-	margin-right: 0px;
-	margin-left: 0px;
-	text-align: left;
-	font-family: "Mountains of Christmas";
-	font-weight: bold;
-	border: 1px solid black;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-left: 0px;
-	color: #FE1E1E;
-	background-color: #0DCD47;
+.cheer {
+padding-top: 5%;
+padding-bottom: 5%;
+padding-left: 20%
 }
-
-/*Ben*/
-.North-Pole {
-	padding-top:5%;
-	padding-bottom: 5%;
-	width: 50px;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-/* Clear floats after the columns https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_three_columns*/
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.imagecolumn{ /* Source: https://www.w3schools.com/css/css_float.asp*/
-	float: left;
-	width: 50px;
-	padding: 30px;
-	box-sizing: border-box;
-}
-
+	
 /* Sam: Footer */ 
 /* Reference: https://stackoverflow.com/questions/3525581/how-to-align-footer-div-to-the-bottom-of-the-page */
 
