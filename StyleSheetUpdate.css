@@ -78,8 +78,12 @@ h2{
   cursor: pointer;
 }
 
-/*list for individual employee pages.*/
-
+QualList {
+  text-align: center;
+  word-spacing: normal;
+  list-style-type: Square;
+  padding-left: 20%;
+}
   
 li {
   float: left;
@@ -181,7 +185,6 @@ p{
 }
 
 /* Referred to: https://www.w3schools.com/cssref/css3_pr_box-sizing.asp*/
-/* Sam Libby*/
 .list {
   width: 200px;
   height: 400px;
@@ -221,6 +224,7 @@ p{
 	content: "";
 	display: table;
 	clear: both;
+	width: 400;
 }
 
 .imagecolumn{ /* Source: https://www.w3schools.com/css/css_float.asp*/
@@ -231,4 +235,4 @@ p{
 }
 /* https://stackoverflow.com/questions/3029422/how-do-i-auto-resize-an-image-to-fit-a-div-container*/
 img{
-	width: 100%;
+	width: 120%;
