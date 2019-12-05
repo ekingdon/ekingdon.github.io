@@ -156,6 +156,10 @@ p{
 	background-color: #8D939F;
 }
 
+a:link { /* Source:https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_colors */
+	color: #FE1E1E;
+	background-color: #8D939F;
+	text-decoration: none;
 
 .North-Pole {
   padding-top:5%;
