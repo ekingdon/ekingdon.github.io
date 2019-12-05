@@ -72,7 +72,7 @@ li a:hover {
 
 /* Input text box style: Allan Beldan */
 
-input[type-number]{
+input[type=number]{
   width = 40px;
 }
 /* based on https://stackoverflow.com/questions/22709792/input-type-number-wont-resize */
