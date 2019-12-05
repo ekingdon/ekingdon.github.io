@@ -78,12 +78,8 @@ h2{
   cursor: pointer;
 }
 
-QualList {
-  text-align: center;
-  word-spacing: normal;
-  list-style-type: Square;
-  padding-left: 20%;
-}
+/*list for individual employee pages.*/
+
   
 li {
   float: left;
