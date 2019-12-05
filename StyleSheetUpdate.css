@@ -44,7 +44,7 @@
   margin-top: 0px;
   margin-bottom: 20px;
   float: left;
-  width: 300px;
+  width: 200px;
 }
 
 /* FONT */
@@ -194,6 +194,7 @@ p{
 }
 
 /* Referred to: https://www.w3schools.com/cssref/css3_pr_box-sizing.asp*/
+
 .list {
   width: 200px;
   height: 400px;
@@ -225,7 +226,7 @@ p{
 
 .North-Pole {
   padding-top:5%;
-  padding-bottom: 5%
+  padding-bottom: 5%;
 }
 
 	/* Clear floats after the columns https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_three_columns*/
