@@ -187,8 +187,8 @@ p{
 /* Referred to: https://www.w3schools.com/cssref/css3_pr_box-sizing.asp*/
 .list {
   width: 250px;
-  height: 250px;
-  padding: 20px;  
+  height: 500px;
+  padding: 50px;  
   border: 10px dotted green;
 }
 
