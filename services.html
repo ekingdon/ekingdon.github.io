@@ -162,14 +162,14 @@ and is wrapped around the whole page content, except for the footer in this exam
 <!--Allan continues-->
 <!--Temporary Javascript Scratch Section Allan-->
 	<script> function CalculateCost() {
-		var cbRunnerTread = document.querySelector('[name="cbRunnerTread"]:checked'),
-		    cbWindsShield = document.querySelector('[name="cbWindShield"]:checked'),
-		    cbJetEngine = document.querySelector('[name="cbJetEngine"]:checked'),
-		    cbReader = document.querySelector('[name="cbReader"]:checked'),
-		    cbGPS = document.querySelector('[name="cbGPS"]:checked'),
-		    cbHotChocolate = document.querySelector('[name="cbHotChocolate"]:checked'),
-		    cbSeatCover = document.querySelector('[name="cbSeatCover"]:checked'),
-		    cbHeatedSeat = document.querySelector('[name="cbHeatedSeat"]:checked'); // Pass checkboxes as per https://stackoverflow.com/questions/42266456/how-to-pass-checkbox-value-to-javascript-function
+		var cbRunnerTread = Number(document.querySelector('[name="cbRunnerTread"]:checked')),
+		    cbWindsShield = Number(document.querySelector('[name="cbWindShield"]:checked')),
+		    cbJetEngine = Number(document.querySelector('[name="cbJetEngine"]:checked')),
+		    cbReader = Number(document.querySelector('[name="cbReader"]:checked')),
+		    cbGPS = Number(document.querySelector('[name="cbGPS"]:checked')),
+		    cbHotChocolate = Number(document.querySelector('[name="cbHotChocolate"]:checked')),
+		    cbSeatCover = Number(document.querySelector('[name="cbSeatCover"]:checked')),
+		    cbHeatedSeat = Number(document.querySelector('[name="cbHeatedSeat"]:checked')); // Pass checkboxes as per https://stackoverflow.com/questions/42266456/how-to-pass-checkbox-value-to-javascript-function
 		var runner = 134.5,
 		    windshield = 50.1,
 		    booster = 2000,
@@ -178,7 +178,6 @@ and is wrapped around the whole page content, except for the footer in this exam
 		    chocolate = 15,
 		    cover = 9,
 		    heated = 10.72; //Cash worth 1, Christmas cake worth 50, Gingerbread houses worth 20, chocolate santa worth 10, milk worth 3, sugar cookies worth 1.5, Candy canes worth 0.5, gumballs worth 0.2, sugar plums worth 0.01
-		var MacOSPlatforms = ['Macintosh', 'MacIntel', 'MacPPC', 'Mac68K']; // Add Mac Surcharge if I have time https://stackoverflow.com/questions/38241480/detect-macos-ios-windows-android-and-linux-os-with-js
 		var totalcost = (runner * cbRunnerTread) + (windshield * cbWindsShield) + (booster * cbJetEngine) + (reader * cbReader) + (gps * cbGPS) + (chocolate * cbHotChocolate) + (cover * cbSeatCover) + (heated * cbHeatedSeat);
 		var cash = Math.round(totalcost/1000);
 		var cake = Math.round((totalcost-cash)/50);
