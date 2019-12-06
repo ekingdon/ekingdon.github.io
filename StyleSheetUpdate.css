@@ -259,6 +259,7 @@ padding-left: 40%
 	
 /* Sam: Footer */ 
 /* Reference: https://stackoverflow.com/questions/3525581/how-to-align-footer-div-to-the-bottom-of-the-page */
+/* Reference: https://www.dummies.com/web-design-development/site-development/how-to-style-paragraphs-headings-and-footers-with-css3/ */
 
 #footer {
   height: 50px;
@@ -270,6 +271,8 @@ padding-left: 40%
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
+background-color: red;
+color: white;
 }
 
 .SleighCompPhoto {
