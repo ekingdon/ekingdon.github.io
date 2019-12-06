@@ -1,3 +1,6 @@
+//Javascript Function created by Allan Beldan
+/?Referred to in the Services.html page
+
 function CalculateCost() {
 		var cbRunnerTread = Number(document.querySelector('[name="cbRunnerTread"]:checked')),
 		    cbWindsShield = Number(document.querySelector('[name="cbWindshield"]:checked')),
