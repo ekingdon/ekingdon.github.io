@@ -167,7 +167,8 @@ th {
 .img-frame {
     background:transparent;
     padding:8px;
-    border:1px solid #999999; 
+    border:1px solid #999999;
+    box-shadow:5px 5px 5px #999; }
 }
 
 /*Employee Page Image - Sam Libby*/
