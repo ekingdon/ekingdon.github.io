@@ -170,7 +170,13 @@ th {
 
 /*Employee Page Image - Sam Libby*/
 /* Reference: https://www.geeksforgeeks.org/resize-image-proportionally-with-css/ */
-.Reindeer2 {
+.image-format {
+	width:auto; 
+        text-align:center; 
+        padding:20px; 
+}
+
+#Reindeer2 {
   padding-top: 70px;
   padding-bottom: 20px; 
   display: block;
@@ -284,8 +290,8 @@ font-size: 20px;
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
-background-color: red;
-color: white;
+  background-color: red;
+  color: white;
 }
 
 /* Employee Page Image - Emily Kingdon */
@@ -297,8 +303,9 @@ color: white;
 /* Button Style - Sam Libby */
 /* Reference: https://css-tricks.com/overriding-default-button-styles/ */
 
-.button {border: 1px;
-border-color: green;
+.button {
+    border: 1px;
+    border-color: green;
     padding: 5px 5px;
     margin: 0;
     text-decoration: none;
