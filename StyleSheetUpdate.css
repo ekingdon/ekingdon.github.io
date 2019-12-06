@@ -24,9 +24,8 @@
 .w3-overlay{position:fixed;display:none;width:100%;height:100%;top:0;left:0;right:0;bottom:0;background-color:rgba(0,0,0,0.5);z-index:2}
 
 
-/*Sam Libby: Head*/
 
-/*Aligning the Logo :Sam Libby*/
+/*Aligning the Logo - Sam Libby */
 .logo {
   padding-right: 0px;
   padding-left: 50px;
@@ -40,20 +39,24 @@
   width: 200px;
 }
 
-/* FONT */
+/* Font - Ben Colgan */
 
 .Services-Container{
   font-family: Trattatello, fantasy;
+
+}
+/* Setting all p Tags to be Arial Font - Emily Kingdon */
+p{
+  font-family: Arial;
 }
 
-/* Font Source: https://www.cssfontstack.com/Mountains-of-Christmas */
+/* Font Source: https://www.cssfontstack.com/Mountains-of-Christmas - Sam Libby */
 h3,h2 {font-family: "Mountains of Christmas", serif;}
 h1,h4,h5 {font-family: serif;}
 
 
 /*Allan Bedan: Navbar* November 27 2019/
-/* NAV BAR */
-/* NAV BAR BORDER REFERENCE https://stackoverflow.com/questions/42707218/css-how-to-put-a-border-around-the-entire-nav-bar*/
+/* Nav Bar Reference: https://stackoverflow.com/questions/42707218/css-how-to-put-a-border-around-the-entire-nav-bar*/
 
 #navbar {
   list-style-type: none;
@@ -78,8 +81,8 @@ li a {
   transition: color 1s, background-color 1s;
 }
 
-/* Background transition based on https://www.w3schools.com/css/css3_transitions.asp: Allan Beldan*/
-
+/* Background transition based on https://www.w3schools.com/css/css3_transitions.asp - Allan Beldan*/
+/* sticky from https://www.w3schools.com/css/css_navbar.asp */
 li a:hover {
     background-color: #5f9239;
     color: #ff1f00;
@@ -88,23 +91,16 @@ ul {
 	position:sticky;
 }
 
-/* sticky from https://www.w3schools.com/css/css_navbar.asp */
 
-/* end of 'nav bar' style */
-
-/* Javascript Output style: Allan Beldan */
+/* Javascript Output style - Allan Beldan */
 
 .jsout {
 	text-align = "center";
 	background-color = "Red";
 }
 
-/* End Javascript Out Style */
 
-
-
-/* Style for Sleigh Technician Page: Allan Beldan */
-/*Sleigh part image*/
+/* Sleigh Part Image and Style for Sleigh Technician Page - Allan Beldan */
 
 .SleighPart {
   margin-left: auto;
@@ -115,16 +111,15 @@ ul {
 }
 
 
-/*Emily*/
-/*List in 'about me' page*/
+/*List in Employee Page - Emily Kingdon */
 .QualList {
   word-spacing: normal;
   list-style-type: Square;
   padding-left: 20%;
 }
 
-/* Emily*/
-/*boder layout in service page*/
+
+/*Border Layout in Service Page - Emily Kingdon */
 .Cost {
   text-align: left;
   border-width: 2px; 
@@ -137,31 +132,22 @@ ul {
   padding-bottom:10%
 }
 
-/*Emily*/
-/*Table*/
-/*Column Formatting*/
+/*Column and Table Formatting - Emily Kingdon */
 td {
   padding-left: 15%;
   text-align: left;
   
 }
 
-
-/*Table*/
-/*Column Formatting*/
+/*Column and Table Formatting - Emily Kingdon */
 th {
   padding-left: 10%;
   text-align: left;
   font-size: 130%;
   font-family: "Mountains of Christmas";
 }
-/*Emily's Part over*/
 
 
-/*All p tags will be arial font*/
-p{
-  font-family: Arial;
-}
 
 /* Aligning the Employee Pictures to be centred - Sam Libby */
 /* Referred to: https://stackoverflow.com/questions/5214893/right-align-an-image-using-css-html*/
@@ -177,7 +163,7 @@ p{
   margin-left:20%;
 }
 
-/*Sam*/
+/* Employee Page Image - Sam Libby*/
 .Reindeer2 {
   padding-top: 70px;
   padding-bottom: 20px; 
@@ -187,7 +173,7 @@ p{
   width: 50%;
 }
 
-/* Sam */
+/* Qualification List on Employee Page - Sam Libby */
 /* Referred to: https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing */
 .list {
   width: 250px;
@@ -197,7 +183,8 @@ p{
   margin: auto;
 }
 
-/*Used Sam's format*/
+/* Qualification List on Employee Page - Emily Kingdon */
+/* Referred to: https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing */
 .list2 {
   text-align: center;
   width: 200px;
@@ -207,7 +194,7 @@ p{
   margin: auto;
 }
 
-/* Sam - Formatting Boxes on Home Page */
+/* Formatting Boxes on Home Page - Sam Libby */
 .services_home_left {
   width: 500px;
   height: 250px;
@@ -224,15 +211,8 @@ p{
   float: right;
 }
 
-.services_home_centre {
-  width: 500px;
-  height: 250px;
-  padding: 50px;
-  border: none;
-  margin: auto;
-}
 
-/* Employee Page Format - Sam */
+/* Employee Page Format - Sam Libby */
 
 .employee-format {
 	padding: 50px;
@@ -248,7 +228,7 @@ padding-bottom: 5%;
 padding-left: 40%
 }
 	
-/* Sam: Footer */ 
+/* Footer - Sam Libby */ 
 /* Reference: https://stackoverflow.com/questions/3525581/how-to-align-footer-div-to-the-bottom-of-the-page */
 /* Reference: https://www.dummies.com/web-design-development/site-development/how-to-style-paragraphs-headings-and-footers-with-css3/ */
 
@@ -266,13 +246,13 @@ background-color: red;
 color: white;
 }
 
-/* Emily */
+/* Employee Page Image - Emily Kingdon */
 .SleighCompPhoto {
   text-align: center;
   background-color: red;
 }
 
-/* Sam */
+/* Button - Sam Libby */
 /* Reference: https://css-tricks.com/overriding-default-button-styles/ */
 
 .button {border: 1px;
