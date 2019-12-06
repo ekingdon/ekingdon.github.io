@@ -169,13 +169,16 @@ th {
 }
 
 /*Employee Page Image - Sam Libby*/
+/* Reference: https://www.geeksforgeeks.org/resize-image-proportionally-with-css/ */
 .Reindeer2 {
   padding-top: 70px;
   padding-bottom: 20px; 
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 100%; 
+  height: 100%; 
+  object-fit: contain;
 }
 
 /* Qualification List on Employee Page - Sam Libby */
