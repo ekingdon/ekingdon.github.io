@@ -267,10 +267,12 @@ padding-left: 43%
 	 cursor: pointer;
 }
 
+/*Poducts page formatting*/
 .ElfProduct {
 	text-align: center;
 	padding-left: 50;
 	padding-top: 10;
+	padding-bottom: 20;
 	width: auto;
 	height: auto;
 }
