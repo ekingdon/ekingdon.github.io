@@ -186,7 +186,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 		    gps = 50,
 		    chocolate = 15,
 		    cover = 9,
-		    heated = 10.72; //Cash worth 1, Christmas cake worth 50, Gingerbread houses worth 20, chocolate santa worth 10, milk worth 3, sugar cookies worth 1.5, Candy canes worth 0.5, gumballs worth 0.2, sugar plums worth 0.01
+		    heated = 11.8; //Cash worth 1, Christmas cake worth 50, Gingerbread houses worth 20, chocolate santa worth 10, milk worth 3, sugar cookies worth 1.5, Candy canes worth 0.5, gumballs worth 0.05, sugar plums worth 0.01
 		var totalcost = (runner * cbRunnerTread) + (windshield * cbWindsShield) + (booster * cbJetEngine) + (reader * cbReader) + (gps * cbGPS) + (chocolate * cbHotChocolate) + (cover * cbSeatCover) + (heated * cbHeatedSeat);
 		var cash = Math.floor(totalcost/1000);
 		totalcost -= (cash * 1000);
@@ -203,7 +203,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 		var candy = Math.floor(totalcost/0.5);
 		totalcost -= (candy*0.5);
 		var gumball = Math.floor(totalcost/0.2);
-		totalcost -= (gumball*0.2);
+		totalcost -= (gumball*0.05);
 		var plum = Math.floor(totalcost/0.01);
 		if (cash > 0) {
 			var cashout = " $2000, ";}
