@@ -275,7 +275,23 @@ background-color: red;
 color: white;
 }
 
+/* Emily */
 .SleighCompPhoto {
   text-align: center;
   background-color: red;
 }
+
+/* Sam */
+/* Reference: https://css-tricks.com/overriding-default-button-styles/ */
+
+.button {border: 1px;
+    padding: 2px 2px;
+    margin: 0;
+    text-decoration: none;
+    background: red;
+    color: whitef;
+    cursor: pointer;
+    text-align: center;
+}
+
+
