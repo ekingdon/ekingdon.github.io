@@ -226,7 +226,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 			var santaout = "";}
 		if (sugar > 0) {
 			if (sugar > 1) {var sugarout = sugar + " Sugar Cookies, ";}
-			else {var sugarout = sugar + " Sugar Cookies, ";}}
+			else {var sugarout = sugar + " Sugar Cookie, ";}}
 		else {
 			var sugarout = "";}
 		if (candy > 0) {
@@ -249,8 +249,8 @@ and is wrapped around the whole page content, except for the footer in this exam
 			else {var plumout = plum + " Sugar Plum, ";}}
 		else {
 			var plumout = "";}
-		var output = "Your estimated cost is " + cashout + cakeout + gingerout + santaout + sugarout + candyout + milkout + gumballout + plumout + "or equivalent in toys or bulk candy canes";
-		if (output == "Your estimated cost is or equivalent in toys or bulk candy canes") {output = "You want no work done? We can do that for free!";}
+		var output = "Your estimated cost, using North Pole Simplified Equivalent Currency is " + cashout + cakeout + gingerout + santaout + sugarout + candyout + milkout + gumballout + plumout + "or equivalent in toys or bulk candy canes";
+		if (output == "Your estimated cost, using North Pole Simplified Equivalent Currency is or equivalent in toys or bulk candy canes") {output = "You want no work done? We can do that for free!";}
 		document.getElementById("outputtext").innerHTML = output;
 		}
 	</script>
