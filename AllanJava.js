@@ -1,6 +1,5 @@
 //Javascript Function created by Allan Beldan
 //Referred to in the Services.html page
-
 function CalculateCost() {
 		var cbRunnerTread = Number(document.querySelector('[name="cbRunnerTread"]:checked')),
 		    cbWindsShield = Number(document.querySelector('[name="cbWindshield"]:checked')),
@@ -91,5 +90,5 @@ function CalculateCost() {
 			var plumout = "";}
 		var output = "Your estimated cost, using North Pole Simplified Equivalent Currency is " + cashout + cakeout + gingerout + santaout + sugarout + candyout + milkout + gumballout + plumout + "or equivalent in toys or bulk candy canes";
 		if (output == "Your estimated cost, using North Pole Simplified Equivalent Currency is or equivalent in toys or bulk candy canes") {output = "You want no work done? We can do that for free!";}
-		$("outputtext").text() = output;
+		$("#outputtext").text(output);
 		}
