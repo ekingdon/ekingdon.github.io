@@ -191,14 +191,12 @@ th {
   object-fit: scale-down;
 }
 
-/* Image Responsive - Sam Libby*/
-/* Reference: https://www.geeksforgeeks.org/resize-image-proportionally-with-css/ */
-/* Reference: https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit */
-.image-format {
-	width:auto; 
-        text-align:center; 
-        padding:20px; 
-}
+/* Image Responsive - Sam Libby */
+
+.img-response{
+  max-width: 100%;
+  height: auto;
+]
 
 /* Qualification List on Employee Page - Sam Libby */
 /* Referred to: https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing */
