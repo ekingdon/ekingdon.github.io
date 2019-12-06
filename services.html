@@ -232,6 +232,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 		else {
 			var plumout = "";}
 		var output = "Your estimated cost is" + cashout + cakeout + gingerout + santaout + sugarout + candyout + milkout + gumballout + plumout;
+		if (output == "Your estimated cost is") {output = "You want no work done? We can do that for free!")
 		document.getElementById("outputtext").innerHTML = output;
 		}
 	</script>
