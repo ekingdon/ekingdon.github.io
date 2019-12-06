@@ -246,7 +246,7 @@ padding-left: 40%
 
 .contact {
 	padding-top: 5%;
-	padding-left:15%
+	padding-left:17%
 }
 
 /* Sourced from https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html */
@@ -277,7 +277,7 @@ a:any-link {
 color: #DC143C;
 font-size: 20px;
 }
-
+/* End styling for contact page */
 
 /* Footer - Sam Libby */ 
 /* Reference: https://stackoverflow.com/questions/3525581/how-to-align-footer-div-to-the-bottom-of-the-page */
