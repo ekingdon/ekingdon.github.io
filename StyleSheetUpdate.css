@@ -91,6 +91,11 @@ li a:hover {
     background-color: #5f9239;
     color: #ff1f00;
 }
+ul {
+	position:sticky;
+}
+
+/* sticky from https://www.w3schools.com/css/css_navbar.asp */
 
 /* end of 'nav bar' style */
 
