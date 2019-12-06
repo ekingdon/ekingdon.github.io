@@ -225,7 +225,7 @@ p{
   margin: auto;
 }
 
-#services_home_left {
+.services_home_left {
   width: 500px;
   height: 250px;
   padding: 50px;
@@ -233,7 +233,7 @@ p{
   float: left;
 }
 
-#services_home_right {
+.services_home_right {
   width: 500px;
   height: 250px;
   padding: 50px;
@@ -241,7 +241,7 @@ p{
   float: right;
 }
 
-#services_home_centre {
+.services_home_centre {
   width: 500px;
   height: 250px;
   padding: 50px;
