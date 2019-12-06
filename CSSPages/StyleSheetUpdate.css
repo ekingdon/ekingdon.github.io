@@ -112,6 +112,9 @@ ul {
 
 /* End Javascript Out Style */
 
+/*Sam*/
+/*Realiging elf image*/
+
 .elf-align  {
   text-align: center;
   background-color: red;
@@ -142,7 +145,7 @@ ul {
 }
 
 
-/*Table and Column Formatting - Emily Kingdon */
+/*Table and Column Formatting for Services page - Emily Kingdon */
 td {
   padding-left: 15%;
   text-align: left;
@@ -278,7 +281,7 @@ padding-left: 43%
 
 /*Products page formatting*/
 /*Emily*/
-
+/*Aligns everything to the center*/
 .ElfProduct {
 	text-align: center;
 	padding-top: 10%;
@@ -314,7 +317,7 @@ font-size: 20px;
   color: white;
 }
 
-/* Employee Page Image - Emily Kingdon */
+/* Employee Page Image at the bottom of unpaid elf intern - Emily Kingdon */
 .SleighCompPhoto {
   text-align: center;
   background-color: red;
