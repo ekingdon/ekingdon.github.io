@@ -31,8 +31,12 @@
 .w3-top,.w3-bottom{position:fixed;width:100%;z-index:1}.w3-top{top:0}.w3-bottom{bottom:0}
 .w3-overlay{position:fixed;display:none;width:100%;height:100%;top:0;left:0;right:0;bottom:0;background-color:rgba(0,0,0,0.5);z-index:2}
 
+/* Image Responsive - Sam Libby */
 
-/*Sam Libby: Head*/
+.response{
+  max-width: 100%;
+  height: auto;
+}
 
 /*Aligning the Logo :Sam Libby*/
 .logo {
@@ -191,12 +195,6 @@ th {
   object-fit: scale-down;
 }
 
-/* Image Responsive - Sam Libby */
-
-.img-response{
-  max-width: 100%;
-  height: auto;
-]
 
 /* Qualification List on Employee Page - Sam Libby */
 /* Referred to: https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing */
