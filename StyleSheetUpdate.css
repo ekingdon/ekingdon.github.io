@@ -168,7 +168,7 @@ th {
     background:transparent;
     padding:10px;
     border:1px solid red;
-    box-shadow:7px 7px 7px red; }
+    box-shadow:7px 7px 7px red; 
 }
 
 /*Employee Page Image - Sam Libby*/
@@ -257,7 +257,6 @@ padding-left: 43%
 	 background-color: #228B22;
 	 font-family: "Mountains of Christmas";
 	 border: none;
-	 color: #228B22;
 	 padding: 20px 34px;
 	 text-align: center;
 	 text-decoration: none;
@@ -267,16 +266,15 @@ padding-left: 43%
 	 cursor: pointer;
 }
 
-/*Poducts page formatting*/
-/*Emily*/
 .ElfProduct {
 	text-align: center;
-	padding-left: 50;
-	padding-top: 10;
-	padding-bottom: 20;
+	padding-left: 50%;
+	padding-top: 10%;
 	width: auto;
 	height: auto;
 }
+
+
 
 
 /* Sourced from https://developer.mozilla.org/en-US/docs/Web/CSS/:any-link */
