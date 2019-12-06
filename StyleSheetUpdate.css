@@ -163,6 +163,13 @@ th {
   margin-left:20%;
 }
 
+/* Image Frame Source: https://www.loriswebs.com/css-border-images.html - Sam Libby*/
+.img-frame {
+    background:transparent;
+    padding:8px;
+    border:1px solid #999999; 
+}
+
 /*Employee Page Image - Sam Libby*/
 /* Reference: https://www.geeksforgeeks.org/resize-image-proportionally-with-css/ */
 /* Reference: https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit */
