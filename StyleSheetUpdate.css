@@ -58,14 +58,9 @@ h3,h2 {font-family: "Mountains of Christmas", serif;}
 h1,h4,h5 {font-family: serif;}
 
 
-<<<<<<< HEAD
-/*Navbar Style* November 27 2019 - Allan Beldan /
-/* Nav Bar Reference: https://stackoverflow.com/questions/42707218/css-how-to-put-a-border-around-the-entire-nav-bar*/
-=======
 /*Allan Bedan: Navbar* November 27 2019/
 /* NAV BAR */
 /* NAV BAR BORDER REFERENCE https://stackoverflow.com/questions/42707218/css-how-to-put-a-border-around-the-entire-nav-bar*/
->>>>>>> 5bc2d43f2e1ca02fd55b8790f5f8cdc0083e4124
 
 #navbar {
   list-style-type: none;
@@ -254,37 +249,27 @@ padding-bottom: 5%;
 padding-left: 40%
 }
 
-/* Styling for contact page */
+/* Styling for contact page - Ben Colgan */
 
 .link {
 	 background-color: #DC143C;
 	 border: none;
-	 color: white;
+	 color: #228B22;
 	 padding: 20px 34px;
 	 text-align: center;
 	 text-decoration: none;
 	 display: inline-block;
-	 font-size: 20px;
+	 font-size: 30px;
 	 margin: 4px 2px;
 	 cursor: pointer;
 }
 
-<<<<<<< HEAD
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-} 
-/* Footer - Sam Libby */ 
-=======
 	
 /* Sam: Footer */ 
->>>>>>> 5bc2d43f2e1ca02fd55b8790f5f8cdc0083e4124
 /* Reference: https://stackoverflow.com/questions/3525581/how-to-align-footer-div-to-the-bottom-of-the-page */
 /* Reference: https://www.dummies.com/web-design-development/site-development/how-to-style-paragraphs-headings-and-footers-with-css3/ */
 
-.footer {
+#footer {
   height: 50px;
 }
 
