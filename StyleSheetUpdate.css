@@ -234,6 +234,11 @@ padding-left: 40%
 
 /* Styling for Contact Page - Ben Colgan */
 
+.contact {
+	padding-top: 20%;
+	padding-left:15%
+}
+
 /* Sourced from https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html */
 .link {
 	 background-color: #228B22;
