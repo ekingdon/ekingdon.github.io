@@ -163,13 +163,23 @@ and is wrapped around the whole page content, except for the footer in this exam
 <!--Temporary Javascript Scratch Section Allan-->
 	<script> function CalculateCost() {
 		var cbRunnerTread = Number(document.querySelector('[name="cbRunnerTread"]:checked')),
-		    cbWindsShield = Number(document.querySelector('[name="cbWindShield"]:checked')),
+		    cbWindsShield = Number(document.querySelector('[name="cbWindshield"]:checked')),
 		    cbJetEngine = Number(document.querySelector('[name="cbJetEngine"]:checked')),
 		    cbReader = Number(document.querySelector('[name="cbReader"]:checked')),
 		    cbGPS = Number(document.querySelector('[name="cbGPS"]:checked')),
 		    cbHotChocolate = Number(document.querySelector('[name="cbHotChocolate"]:checked')),
 		    cbSeatCover = Number(document.querySelector('[name="cbSeatCover"]:checked')),
 		    cbHeatedSeat = Number(document.querySelector('[name="cbHeatedSeat"]:checked')); // Pass checkboxes as per https://stackoverflow.com/questions/42266456/how-to-pass-checkbox-value-to-javascript-function
+		    
+		    if (cbRunnerTread == NaN) {cbRunnerTread = 1} //Convert NaN values to 1
+		    if (cbWindsShield == NaN) {cbWindsShield = 1}
+		    if (cbJetEngine == NaN) {cbJetEngine = 1}
+		    if (cbReader == NaN) {cbReader = 1}
+		    if (cbGPS == NaN) {cbGPS = 1}
+		    if (cbHotChocolate == NaN) {cbHotChocolate = 1}
+		    if (cbSeatCover == NaN) {cbSeatCover = 1}
+		    if (cbHeatedSeat == NaN) {cbHeatedSeat = 1}
+
 		var runner = 134.5,
 		    windshield = 50.1,
 		    booster = 2000,
