@@ -1,7 +1,7 @@
 //Javascript Function created by Allan Beldan
 //Referred to in the Services.html page
 function CalculateCost() {
-		var cbRunnerTread = Number(document.querySelector('[name="cbRunnerTread"]:checked')),
+		var cbRunnerTread = Number(document.querySelector('[name="cbRunnerTread"]:checked')), 
 		    cbWindsShield = Number(document.querySelector('[name="cbWindshield"]:checked')),
 		    cbJetEngine = Number(document.querySelector('[name="cbJetEngine"]:checked')),
 		    cbReader = Number(document.querySelector('[name="cbReader"]:checked')),
@@ -10,7 +10,7 @@ function CalculateCost() {
 		    cbSeatCover = Number(document.querySelector('[name="cbSeatCover"]:checked')),
 		    cbHeatedSeat = Number(document.querySelector('[name="cbHeatedSeat"]:checked')); // Pass checkboxes as per https://stackoverflow.com/questions/42266456/how-to-pass-checkbox-value-to-javascript-function
 		    
-		    if (Number.isNaN(cbRunnerTread) == true) {cbRunnerTread = 1;} //Convert NaN values to 1
+		    if (Number.isNaN(cbRunnerTread) == true) {cbRunnerTread = 1;} //Convert NaN values to 1. isNaN from https://www.w3schools.com/jsref/jsref_isnan_number.asp
 		    if (Number.isNaN(cbWindsShield) == true) {cbWindsShield = 1;}
 		    if (Number.isNaN(cbJetEngine) == true) {cbJetEngine = 1;}
 		    if (Number.isNaN(cbReader) == true) {cbReader = 1;}
@@ -26,9 +26,11 @@ function CalculateCost() {
 		    gps = 50,
 		    chocolate = 15,
 		    cover = 9,
-		    heated = 11.8; //Cash worth 1, Christmas cake worth 50, Gingerbread houses worth 20, chocolate santa worth 10, milk worth 3, sugar cookies worth 1.5, Candy canes worth 0.5, gumballs worth 0.05, sugar plums worth 0.01
+		    heated = 11.8; //Declare how much each item worth in Cdn $. Cash worth 1, Christmas cake worth 50, Gingerbread houses worth 20, chocolate santa worth 10, milk worth 3, sugar cookies worth 1.5, Candy canes worth 0.5, gumballs worth 0.05, sugar plums worth 0.01
 		var totalcost = (runner * cbRunnerTread) + (windshield * cbWindsShield) + (booster * cbJetEngine) + (reader * cbReader) + (gps * cbGPS) + (chocolate * cbHotChocolate) + (cover * cbSeatCover) + (heated * cbHeatedSeat);
-		var cash = Math.floor(totalcost/1000);
+		//Above calculates the total sum, by multiplying the cost of each item by 1 or 0 depending if item is present or not and then adding them up
+		
+		var cash = Math.floor(totalcost/1000); //iterate total cost down for each "unit of currency"
 		totalcost -= (cash * 1000);
 		var cake = Math.floor(totalcost/50);
 		totalcost -= (cake*50);
@@ -45,6 +47,8 @@ function CalculateCost() {
 		var gumball = Math.floor(totalcost/0.2);
 		totalcost -= (gumball*0.05);
 		var plum = Math.floor(totalcost/0.01);
+	
+		//This section determines the output for each unit of currency, depending on whether there are 0, 1, or more than 1 of the item
 		if (cash > 0) {
 			var cashout = " $2000, ";}
 		else {
@@ -88,7 +92,13 @@ function CalculateCost() {
 			else {var plumout = plum + " Sugar Plum, ";}}
 		else {
 			var plumout = "";}
+	
+		//Concatenates and declares output message
 		var output = "Your estimated cost, using North Pole Simplified Equivalent Currency is " + cashout + cakeout + gingerout + santaout + sugarout + candyout + milkout + gumballout + plumout + "or equivalent in toys or bulk candy canes";
+		
+		//Alternate output method if it declares an empty string
 		if (output == "Your estimated cost, using North Pole Simplified Equivalent Currency is or equivalent in toys or bulk candy canes") {output = "You want no work done? We can do that for free!";}
+		
+		//output message to HTML
 		document.getElementById("outputtext").innerHTML = output; // JQuery based on https://www.w3schools.com/jquery/jquery_dom_set.asp
 		}
