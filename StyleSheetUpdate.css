@@ -62,7 +62,7 @@ h3,h2 {font-family: "Mountains of Christmas", serif;}
 h1,h4,h5 {font-family: serif;}
 
 
-/*Allan Bedan: Navbar* November 27 2019/
+/*Navbar Style* November 27 2019 - Allan Beldan /
 /* Nav Bar Reference: https://stackoverflow.com/questions/42707218/css-how-to-put-a-border-around-the-entire-nav-bar*/
 
 #navbar {
@@ -254,12 +254,12 @@ padding-left: 40%
   content: "";
   display: table;
   clear: both;
-	
+} 
 /* Footer - Sam Libby */ 
 /* Reference: https://stackoverflow.com/questions/3525581/how-to-align-footer-div-to-the-bottom-of-the-page */
 /* Reference: https://www.dummies.com/web-design-development/site-development/how-to-style-paragraphs-headings-and-footers-with-css3/ */
 
-#footer {
+.footer {
   height: 50px;
 }
 
