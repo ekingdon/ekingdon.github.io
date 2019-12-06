@@ -171,14 +171,14 @@ and is wrapped around the whole page content, except for the footer in this exam
 		    cbSeatCover = Number(document.querySelector('[name="cbSeatCover"]:checked')),
 		    cbHeatedSeat = Number(document.querySelector('[name="cbHeatedSeat"]:checked')); // Pass checkboxes as per https://stackoverflow.com/questions/42266456/how-to-pass-checkbox-value-to-javascript-function
 		    
-		    if (Number.IsNaN(cbRunnerTread) == true) {cbRunnerTread = 1;} //Convert NaN values to 1
-		    if (Number.IsNaN(cbWindsShield) == true) {cbWindsShield = 1;}
-		    if (Number.IsNaN(cbJetEngine) == true) {cbJetEngine = 1;}
-		    if (Number.IsNaN(cbReader) == true) {cbReader = 1;}
-		    if (Number.IsNaN(cbGPS) == true) {cbGPS = 1;}
-		    if (Number.IsNaN(cbHotChocolate) == true) {cbHotChocolate = 1;}
-		    if (Number.IsNaN(cbSeatCover) == true) {cbSeatCover = 1;}
-		    if (Number.IsNaN(cbHeatedSeat) == true) {cbHeatedSeat = 1;}
+		    if (Number.isNaN(cbRunnerTread) == true) {cbRunnerTread = 1;} //Convert NaN values to 1
+		    if (Number.isNaN(cbWindsShield) == true) {cbWindsShield = 1;}
+		    if (Number.isNaN(cbJetEngine) == true) {cbJetEngine = 1;}
+		    if (Number.isNaN(cbReader) == true) {cbReader = 1;}
+		    if (Number.isNaN(cbGPS) == true) {cbGPS = 1;}
+		    if (Number.isNaN(cbHotChocolate) == true) {cbHotChocolate = 1;}
+		    if (Number.isNaN(cbSeatCover) == true) {cbSeatCover = 1;}
+		    if (Number.isNaN(cbHeatedSeat) == true) {cbHeatedSeat = 1;}
 
 		var runner = 134.5,
 		    windshield = 50.1,
