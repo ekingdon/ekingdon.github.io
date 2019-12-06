@@ -70,19 +70,6 @@ h1,h4,h5 {font-family: serif;}
   padding: 0;
   background-color: #ffffff;
   cursor: pointer;
-  position: sticky;
-}
-
-#navbar.sticky {
-  position:sticky;
-  top:0;
-  list-style-type: none;
-  border-bottom: 3px solid #5F9239;
-  border-style: outset;
-  margin: 0;
-  padding: 0;
-  background-color: #ffffff;
-  cursor: pointer;
 }
   
 li {
@@ -107,14 +94,14 @@ li a:hover {
 
 /* end of 'nav bar' style */
 
-/* Input text box style: Allan Beldan */
+/* Javascript Output style: Allan Beldan */
 
-input[type=number]{
-  width: 40px;
+.jsout {
+	text-align = "center";
+	background-color = "Red";
 }
-/* based on https://stackoverflow.com/questions/22709792/input-type-number-wont-resize */
 
-/* End Text Box Style */
+/* End Javascript Out Style */
 
 
 
