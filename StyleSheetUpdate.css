@@ -166,9 +166,9 @@ th {
 /* Image Frame Source: https://www.loriswebs.com/css-border-images.html - Sam Libby*/
 .img-frame {
     background:transparent;
-    padding:8px;
-    border:1px solid #999999;
-    box-shadow:5px 5px 5px #999; }
+    padding:10px;
+    border:1px solid red;
+    box-shadow:7px 7px 7px red; }
 }
 
 /*Employee Page Image - Sam Libby*/
