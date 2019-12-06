@@ -47,20 +47,24 @@
   width: 200px;
 }
 
-/* FONT */
+/* Font - Ben Colgan */
 
 .Services-Container{
   font-family: Trattatello, fantasy;
 }
 
-/* Font Source: https://www.cssfontstack.com/Mountains-of-Christmas */
+/*Setting All p Tags to be Arial Font - Emily Kingdon */
+p{
+  font-family: Arial;
+}
+
+/* Font Source: https://www.cssfontstack.com/Mountains-of-Christmas - Sam Libby */
 h3,h2 {font-family: "Mountains of Christmas", serif;}
 h1,h4,h5 {font-family: serif;}
 
 
-/*Allan Bedan: Navbar* November 27 2019/
-/* NAV BAR */
-/* NAV BAR BORDER REFERENCE https://stackoverflow.com/questions/42707218/css-how-to-put-a-border-around-the-entire-nav-bar*/
+/*Navbar Style* November 27 2019 - Allan Beldan /
+/* Nav Bar Reference: https://stackoverflow.com/questions/42707218/css-how-to-put-a-border-around-the-entire-nav-bar*/
 
 #navbar {
   list-style-type: none;
@@ -110,8 +114,7 @@ ul {
 
 
 
-/* Style for Sleigh Technician Page: Allan Beldan */
-/*Sleigh part image*/
+/* Style and Image for Sleigh Technician Page - Allan Beldan */
 
 .SleighPart {
   margin-left: auto;
@@ -122,8 +125,7 @@ ul {
 }
 
 
-/* Emily*/
-/*boder layout in service page*/
+/*Boder Layout in Service Page - Emily Kingdon */
 .Cost {
   text-align: left;
   border-width: 2px; 
@@ -136,34 +138,21 @@ ul {
   padding-bottom:10%
 }
 
-/*Emily*/
-/*Table*/
-/*Column Formatting*/
+
+/*Table and Column Formatting - Emily Kingdon */
 td {
   padding-left: 15%;
   text-align: left;
   
 }
 
-
-/*Table*/
-/*Column Formatting*/
 th {
   padding-left: 10%;
   text-align: left;
   font-size: 130%;
   font-family: "Mountains of Christmas";
 }
-/*Emily's Part over*/
 
-
-/* Aligning the footer statement to be centred - Sam Libby */
-
-
-/*All p tags will be arial font*/
-p{
-  font-family: Arial;
-}
 
 /* Aligning the Employee Pictures to be centred - Sam Libby */
 /* Referred to: https://stackoverflow.com/questions/5214893/right-align-an-image-using-css-html*/
@@ -179,7 +168,7 @@ p{
   margin-left:20%;
 }
 
-/*Sam*/
+/*Employee Page Image - Sam Libby*/
 .Reindeer2 {
   padding-top: 70px;
   padding-bottom: 20px; 
@@ -189,7 +178,7 @@ p{
   width: 50%;
 }
 
-/* Sam */
+/* Qualification List on Employee Page - Sam Libby */
 /* Referred to: https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing */
 .list {
   width: 250px;
@@ -199,7 +188,7 @@ p{
   margin: auto;
 }
 
-/*Used Sam's format*/
+/*Qualification List on Employee Page - Emily Kingdon (Used Sam's Format) */
 .list2 {
   text-align: center;
   width: 200px;
@@ -208,6 +197,8 @@ p{
   border: 5px dotted green;
   margin: auto;
 }
+
+/* Formatting Boxes on Home Page - Sam Libby */
 
 .services_home_left {
   width: 500px;
@@ -225,26 +216,12 @@ p{
   float: right;
 }
 
-.services_home_centre {
-  width: 500px;
-  height: 250px;
-  padding: 50px;
-  border: none;
-  margin: auto;
-}
-
-/* Employee Page Format - Sam */
+/* Employee Page Format - Sam Liby */
 
 .employee-format {
 	padding: 50px;
 	border:none;
 	margin:auto;
-}
-
-/* Allan.html Page Format - Allan */
-
-.elf-align {
-	float:left;
 }
 
 /* Styling for Christmas Cheer Button - Ben Colgan */
@@ -255,32 +232,32 @@ padding-bottom: 5%;
 padding-left: 40%
 }
 
-/* Styling for contact page - Ben Colgan */
+/* Styling for Contact Page - Ben Colgan */
 
 .link {
 	 background-color: #DC143C;
 	 border: none;
-	 color: #228B22;
+	 color: white;
 	 padding: 20px 34px;
 	 text-align: center;
 	 text-decoration: none;
 	 display: inline-block;
-	 font-size: 30px;
+	 font-size: 20px;
 	 margin: 4px 2px;
 	 cursor: pointer;
 }
 
-<!-- Sourced from https://developer.mozilla.org/en-US/docs/Web/CSS/:any-link-->
-:any-link {
-  color: #228B22;
-}
-
-	
-/* Sam: Footer */ 
+/* Clear Floats After the Columns - Ben Colgan */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+} 
+/* Footer - Sam Libby */ 
 /* Reference: https://stackoverflow.com/questions/3525581/how-to-align-footer-div-to-the-bottom-of-the-page */
 /* Reference: https://www.dummies.com/web-design-development/site-development/how-to-style-paragraphs-headings-and-footers-with-css3/ */
 
-#footer {
+.footer {
   height: 50px;
 }
 
@@ -294,13 +271,13 @@ background-color: red;
 color: white;
 }
 
-/* Emily */
+/* Employee Page Image - Emily Kingdon */
 .SleighCompPhoto {
   text-align: center;
   background-color: red;
 }
 
-/* Sam */
+/* Button Style - Sam Libby */
 /* Reference: https://css-tricks.com/overriding-default-button-styles/ */
 
 .button {border: 1px;
