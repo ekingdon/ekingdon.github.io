@@ -190,7 +190,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 		    heated = 10.72; //Cash worth 1, Christmas cake worth 50, Gingerbread houses worth 20, chocolate santa worth 10, milk worth 3, sugar cookies worth 1.5, Candy canes worth 0.5, gumballs worth 0.2, sugar plums worth 0.01
 		var totalcost = (runner * cbRunnerTread) + (windshield * cbWindsShield) + (booster * cbJetEngine) + (reader * cbReader) + (gps * cbGPS) + (chocolate * cbHotChocolate) + (cover * cbSeatCover) + (heated * cbHeatedSeat);
 		var cash = Math.floor(totalcost/1000);
-		totalcost -= cash;
+		totalcost -= (cash * 1000);
 		var cake = Math.floor(totalcost/50);
 		totalcost -= (cake*50);
 		var ginger = Math.floor(totalcost/20);
