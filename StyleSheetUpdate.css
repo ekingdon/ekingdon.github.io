@@ -104,13 +104,16 @@ ul {
 /* Javascript Output style: Allan Beldan */
 
 .jsout {
-	text-align = "center";
-	background-color = "Red";
+	text-align = center;
+	background-color = red;
 }
 
 /* End Javascript Out Style */
 
-
+.elf-align {
+	text-align = center;
+	background-color = red;
+}
 
 /* Style and Image for Sleigh Technician Page - Allan Beldan */
 
@@ -123,7 +126,7 @@ ul {
 }
 
 
-/*Boder Layout in Service Page - Emily Kingdon */
+/*Border Layout in Service Page - Emily Kingdon */
 .Cost {
   text-align: left;
   border-width: 2px; 
