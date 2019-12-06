@@ -216,7 +216,7 @@ th {
   float: right;
 }
 
-/* Employee Page Format - Sam Liby */
+/* Employee Page Format - Sam Libby */
 
 .employee-format {
 	padding: 50px;
@@ -251,11 +251,10 @@ a:any-link {
   color: #228B22;
 }
 
-} 
+
 /* Footer - Sam Libby */ 
 /* Reference: https://stackoverflow.com/questions/3525581/how-to-align-footer-div-to-the-bottom-of-the-page */
 /* Reference: https://www.dummies.com/web-design-development/site-development/how-to-style-paragraphs-headings-and-footers-with-css3/ */
-
 .footer {
   height: 50px;
 }
