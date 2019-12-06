@@ -32,7 +32,9 @@
 .w3-overlay{position:fixed;display:none;width:100%;height:100%;top:0;left:0;right:0;bottom:0;background-color:rgba(0,0,0,0.5);z-index:2}
 
 
-/*Aligning the Logo - Sam Libby*/
+/*Sam Libby: Head*/
+
+/*Aligning the Logo :Sam Libby*/
 .logo {
   padding-right: 0px;
   padding-left: 50px;
@@ -87,8 +89,8 @@ li a {
   transition: color 1s, background-color 1s;
 }
 
-/* Background Transition Based on https://www.w3schools.com/css/css3_transitions.asp - Allan Beldan*/
-/* sticky from https://www.w3schools.com/css/css_navbar.asp */
+/* Background transition based on https://www.w3schools.com/css/css3_transitions.asp: Allan Beldan*/
+
 li a:hover {
     background-color: #5f9239;
     color: #ff1f00;
@@ -97,12 +99,20 @@ ul {
 	position:sticky;
 }
 
+/* sticky from https://www.w3schools.com/css/css_navbar.asp */
+
+/* end of 'nav bar' style */
+
 /* Javascript Output style: Allan Beldan */
 
 .jsout {
 	text-align = "center";
 	background-color = "Red";
 }
+
+/* End Javascript Out Style */
+
+
 
 /* Style and Image for Sleigh Technician Page - Allan Beldan */
 
@@ -115,7 +125,7 @@ ul {
 }
 
 
-/* Border Layout in Service Page - Emily Kingdon */
+/*Boder Layout in Service Page - Emily Kingdon */
 .Cost {
   text-align: left;
   border-width: 2px; 
@@ -144,7 +154,7 @@ th {
 }
 
 
-/* Aligning the Employee Pictures to be Centred - Sam Libby */
+/* Aligning the Employee Pictures to be centred - Sam Libby */
 /* Referred to: https://stackoverflow.com/questions/5214893/right-align-an-image-using-css-html*/
 .employee-pic {
     padding-top: 70px;
@@ -166,12 +176,6 @@ th {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-}
-
-/* Employee Page Image - Emily Kingdon */
-.SleighCompPhoto {
-  text-align: center;
-  background-color: red;
 }
 
 /* Qualification List on Employee Page - Sam Libby */
@@ -233,7 +237,7 @@ padding-left: 40%
 .link {
 	 background-color: #DC143C;
 	 border: none;
-	 color: white;
+	 color: #228B22;
 	 padding: 20px 34px;
 	 text-align: center;
 	 text-decoration: none;
@@ -243,16 +247,15 @@ padding-left: 40%
 	 cursor: pointer;
 }
 
-/* Clear Floats After the Columns - Ben Colgan */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-} 
+a:any-link {
+  color: #228B22;
+}
 
-/* Footer Style - Sam Libby */ 
+} 
+/* Footer - Sam Libby */ 
 /* Reference: https://stackoverflow.com/questions/3525581/how-to-align-footer-div-to-the-bottom-of-the-page */
 /* Reference: https://www.dummies.com/web-design-development/site-development/how-to-style-paragraphs-headings-and-footers-with-css3/ */
+
 .footer {
   height: 50px;
 }
@@ -267,8 +270,15 @@ background-color: red;
 color: white;
 }
 
+/* Employee Page Image - Emily Kingdon */
+.SleighCompPhoto {
+  text-align: center;
+  background-color: red;
+}
+
 /* Button Style - Sam Libby */
 /* Reference: https://css-tricks.com/overriding-default-button-styles/ */
+
 .button {border: 1px;
 border-color: green;
     padding: 5px 5px;
