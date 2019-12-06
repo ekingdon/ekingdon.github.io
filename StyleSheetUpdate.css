@@ -270,6 +270,11 @@ padding-left: 40%
 	 cursor: pointer;
 }
 
+<!-- Sourced from https://developer.mozilla.org/en-US/docs/Web/CSS/:any-link-->
+:any-link {
+  color: #228B22;
+}
+
 	
 /* Sam: Footer */ 
 /* Reference: https://stackoverflow.com/questions/3525581/how-to-align-footer-div-to-the-bottom-of-the-page */
