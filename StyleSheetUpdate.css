@@ -187,6 +187,7 @@ th {
 .list {
   width: 250px;
   height: 450px;
+  margin-top: 20px;
   padding: 20px;  
   border: 5px dotted green;
   margin: auto;
