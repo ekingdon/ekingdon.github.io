@@ -285,11 +285,12 @@ color: white;
 /* Reference: https://css-tricks.com/overriding-default-button-styles/ */
 
 .button {border: 1px;
-    padding: 2px 2px;
+border-color: green;
+    padding: 5px 5px;
     margin: 0;
     text-decoration: none;
     background: red;
-    color: whitef;
+    color: white;
     cursor: pointer;
     text-align: center;
 }
