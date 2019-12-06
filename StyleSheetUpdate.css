@@ -104,15 +104,15 @@ ul {
 /* Javascript Output style: Allan Beldan */
 
 .jsout {
-	text-align = center;
-	background-color = red;
+  text-align: center;
+  background-color: red;
 }
 
 /* End Javascript Out Style */
 
-.elf-align {
-	text-align = center;
-	background-color = red;
+.elf-align  {
+  text-align: center;
+  background-color: red;
 }
 
 /* Style and Image for Sleigh Technician Page - Allan Beldan */
