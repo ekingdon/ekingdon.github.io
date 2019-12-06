@@ -237,6 +237,7 @@ padding-left: 40%
 /* Sourced from https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html */
 .link {
 	 background-color: #228B22;
+	 font-family: "Mountains of Christmas";
 	 border: none;
 	 color: #228B22;
 	 padding: 20px 34px;
