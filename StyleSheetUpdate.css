@@ -104,9 +104,8 @@ ul {
 /* Javascript Output style: Allan Beldan */
 
 .jsout {
-  padding-top: 20px;
+  margin: 20px;
   text-align: center;
-  color: #5f9239;
   background-color: red;
 }
 
