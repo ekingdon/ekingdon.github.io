@@ -249,6 +249,14 @@ p{
   margin: auto;
 }
 
+/* Employee Page Format - Sam */
+
+.employee-format {
+	padding: 50px;
+	border:none;
+	margin:auto;
+}
+
 /* Styling for Christmas Cheer Button - Ben Colgan */
 
 .cheer {
