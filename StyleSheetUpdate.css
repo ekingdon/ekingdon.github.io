@@ -187,7 +187,6 @@ th {
 .list {
   width: 250px;
   height: 450px;
-  margin-top: 20px;
   padding: 20px;  
   border: 5px dotted green;
   margin: auto;
@@ -234,7 +233,7 @@ th {
 .cheer {
 padding-top: 5%;
 padding-bottom: 5%;
-padding-left: 40%
+padding-left: 42%
 }
 
 /* Styling for Contact Page - Ben Colgan */
