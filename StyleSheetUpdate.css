@@ -234,6 +234,7 @@ padding-left: 40%
 
 /* Styling for Contact Page - Ben Colgan */
 
+/* Sourced from https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html */
 .link {
 	 background-color: #DC143C;
 	 border: none;
@@ -247,8 +248,10 @@ padding-left: 40%
 	 cursor: pointer;
 }
 
+/* Sourced from https://developer.mozilla.org/en-US/docs/Web/CSS/:any-link */
 a:any-link {
-  color: #228B22;
+color: #FFFAF0;
+font-size: 20px;
 }
 
 
